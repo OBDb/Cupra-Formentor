@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.221E3B
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_VOLTS: 367
+  response: 7ED05621E3B05BC
+- expected_values:
+    CUPRA_HVBAT_VOLTS: 368.25
+  response: 7ED05621E3B05C1
