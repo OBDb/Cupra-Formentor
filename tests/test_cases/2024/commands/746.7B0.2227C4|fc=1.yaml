@@ -1,0 +1,42 @@
+command_id: 746.7B0.2227C4|fc=1
+test_cases:
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 26.288
+  response: |-
+    7B010086227C4716501
+    7B021D84FAAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 26.288
+  response: |-
+    7B010086227C471A4F1
+    7B021D850AAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 26.288
+  response: |-
+    7B010086227C471A531
+    7B021DC50AAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 32.048
+  response: |-
+    7B010086227C47BAE82
+    7B021502BAAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 32.624
+  response: |-
+    7B010086227C47C2932
+    7B0210C48AAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 33.2
+  response: |-
+    7B010086227C47D6EF2
+    7B021582CAAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 41.84
+  response: |-
+    7B010086227C48CF722
+    7B021C021AAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 45.872
+  response: |-
+    7B010086227C4933932
+    7B021DC21AAAAAAAAAA

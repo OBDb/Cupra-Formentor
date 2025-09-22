@@ -1,0 +1,10 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    CUPRA_GPS_SATS_TRACKED: 6
+    CUPRA_GPS_SATS_VISIBLE: 1
+  response: 7D106622431010600
+- expected_values:
+    CUPRA_GPS_SATS_TRACKED: 7
+    CUPRA_GPS_SATS_VISIBLE: 1
+  response: 7D106622431010700
