@@ -1,0 +1,26 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    CUPRA_ATF_T: 19
+  response: 7E9056221043B00
+- expected_values:
+    CUPRA_ATF_T: 20
+  response: 7E9056221043C00
+- expected_values:
+    CUPRA_ATF_T: 22
+  response: 7E9056221043E00
+- expected_values:
+    CUPRA_ATF_T: 23
+  response: 7E9056221043F00
+- expected_values:
+    CUPRA_ATF_T: 26
+  response: '7E9056221044200'
+- expected_values:
+    CUPRA_ATF_T: 27
+  response: '7E9056221044300'
+- expected_values:
+    CUPRA_ATF_T: 38
+  response: 7E9056221044E00
+- expected_values:
+    CUPRA_ATF_T: 40
+  response: '7E9056221045000'
