@@ -4,8 +4,20 @@ test_cases:
     CUPRA_SSB_R: 0
   response: 77A04622A0E00
 - expected_values:
+    CUPRA_SSB_R: 0.2
+  response: 77A04622A0E01
+- expected_values:
     CUPRA_SSB_R: 5
   response: 77A04622A0E19
 - expected_values:
+    CUPRA_SSB_R: 7.2
+  response: 77A04622A0E24
+- expected_values:
     CUPRA_SSB_R: 8.4
   response: 77A04622A0E2A
+- expected_values:
+    CUPRA_SSB_R: 8.6
+  response: 77A04622A0E2B
+- expected_values:
+    CUPRA_SSB_R: 8.8
+  response: 77A04622A0E2C
