@@ -1,4 +1,4 @@
-command_id: 746.7B0.2226ED|fc=1
+command_id: 746.2226ED|fc=1
 test_cases:
 - expected_values:
     CUPRA_AIR_POLUTION: 0
