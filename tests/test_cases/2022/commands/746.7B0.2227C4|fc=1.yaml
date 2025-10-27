@@ -1,6 +1,16 @@
 command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - expected_values:
+    CUPRA_WNDSHLD_TEMP: 26.864
+  response: |-
+    7B010086227C4721EF1
+    7B0218C99AAAAAAAAAA
+- expected_values:
+    CUPRA_WNDSHLD_TEMP: 27.44
+  response: |-
+    7B010086227C4731ED1
+    7B02188A1AAAAAAAAAA
+- expected_values:
     CUPRA_WNDSHLD_TEMP: 42.992
   response: |-
     7B010086227C48EA7F1
