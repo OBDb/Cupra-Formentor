@@ -13,5 +13,20 @@ test_cases:
     CUPRA_AAT_V2: 74
   response: 77E046210147C
 - expected_values:
+    CUPRA_AAT_V2: 76
+  response: 77E046210147E
+- expected_values:
+    CUPRA_AAT_V2: 77
+  response: 77E046210147F
+- expected_values:
+    CUPRA_AAT_V2: 78
+  response: '77E0462101480'
+- expected_values:
+    CUPRA_AAT_V2: 79
+  response: '77E0462101481'
+- expected_values:
+    CUPRA_AAT_V2: 80
+  response: '77E0462101482'
+- expected_values:
     CUPRA_AAT_V2: 94
   response: '77E0462101490'
