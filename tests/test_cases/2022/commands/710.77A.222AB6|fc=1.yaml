@@ -1,25 +1,20 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RANGE: 225
+    CUPRA_RANGE: 215
   response: |-
-    77A100A622AB600E100
-    77A21E107FD01AAAAAA
+    77A100A622AB600D700
+    77A21D707FD01AAAAAA
 - expected_values:
-    CUPRA_RANGE: 225
+    CUPRA_RANGE: 215
   response: |-
-    77A100A622AB600E100
-    77A21E107FD17AAAAAA
+    77A100A622AB600D700
+    77A21D707FD1BAAAAAA
 - expected_values:
     CUPRA_RANGE: 240
   response: |-
     77A100A622AB600F000
     77A21F007FD01AAAAAA
-- expected_values:
-    CUPRA_RANGE: 245
-  response: |-
-    77A100A622AB600F500
-    77A21F507FD1BAAAAAA
 - expected_values:
     CUPRA_RANGE: 255
   response: |-
