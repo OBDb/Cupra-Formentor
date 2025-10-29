@@ -1,32 +1,8 @@
 command_id: 714.77E.221014
 test_cases:
 - expected_values:
-    CUPRA_AAT_V2: 68
-  response: '77E0462101476'
-- expected_values:
-    CUPRA_AAT_V2: 71
-  response: '77E0462101479'
-- expected_values:
-    CUPRA_AAT_V2: 72
-  response: 77E046210147A
-- expected_values:
-    CUPRA_AAT_V2: 74
-  response: 77E046210147C
-- expected_values:
-    CUPRA_AAT_V2: 76
-  response: 77E046210147E
-- expected_values:
-    CUPRA_AAT_V2: 77
-  response: 77E046210147F
-- expected_values:
-    CUPRA_AAT_V2: 78
-  response: '77E0462101480'
-- expected_values:
-    CUPRA_AAT_V2: 79
-  response: '77E0462101481'
-- expected_values:
-    CUPRA_AAT_V2: 80
-  response: '77E0462101482'
+    CUPRA_AAT_V2: 66
+  response: '77E0462101474'
 - expected_values:
     CUPRA_AAT_V2: 94
   response: '77E0462101490'
