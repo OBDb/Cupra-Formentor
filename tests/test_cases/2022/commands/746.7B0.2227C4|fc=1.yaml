@@ -31,6 +31,11 @@ test_cases:
     7B010086227C4745F01
     7B0218CA3AAAAAAAAAA
 - expected_values:
+    CUPRA_WNDSHLD_TEMP: 30.896
+  response: |-
+    7B010086227C4792791
+    7B021F84DAAAAAAAAAA
+- expected_values:
     CUPRA_WNDSHLD_TEMP: 32.048
   response: |-
     7B010086227C47BE972
@@ -40,11 +45,6 @@ test_cases:
   response: |-
     7B010086227C47C2872
     7B021044DAAAAAAAAAA
-- expected_values:
-    CUPRA_WNDSHLD_TEMP: 42.992
-  response: |-
-    7B010086227C48EA7F1
-    7B021FC82AAAAAAAAAA
 - expected_values:
     CUPRA_WNDSHLD_TEMP: 43.568
   response: |-
