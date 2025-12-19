@@ -1,29 +1,38 @@
 command_id: 710.77A.222A0E
 test_cases:
 - expected_values:
+    CUPRA_BAT_INT_R: 0
     CUPRA_SSB_R: 0
   response: 77A04622A0E00
 - expected_values:
+    CUPRA_BAT_INT_R: 0.2
     CUPRA_SSB_R: 0.2
   response: 77A04622A0E01
 - expected_values:
+    CUPRA_BAT_INT_R: 5
     CUPRA_SSB_R: 5
   response: 77A04622A0E19
 - expected_values:
+    CUPRA_BAT_INT_R: 6.4
     CUPRA_SSB_R: 6.4
   response: 77A04622A0E20
 - expected_values:
+    CUPRA_BAT_INT_R: 7.2
     CUPRA_SSB_R: 7.2
   response: 77A04622A0E24
 - expected_values:
+    CUPRA_BAT_INT_R: 8.2
     CUPRA_SSB_R: 8.2
   response: 77A04622A0E29
 - expected_values:
+    CUPRA_BAT_INT_R: 8.4
     CUPRA_SSB_R: 8.4
   response: 77A04622A0E2A
 - expected_values:
+    CUPRA_BAT_INT_R: 8.6
     CUPRA_SSB_R: 8.6
   response: 77A04622A0E2B
 - expected_values:
+    CUPRA_BAT_INT_R: 8.8
     CUPRA_SSB_R: 8.8
   response: 77A04622A0E2C

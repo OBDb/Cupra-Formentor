@@ -1,0 +1,6 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_T_AFTER_EVAP: 0.666
+    CUPRA_HVAC_EVAP_T: 71
+  response: 7B00562261202C6
