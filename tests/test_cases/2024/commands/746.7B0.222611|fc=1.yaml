@@ -1,0 +1,5 @@
+command_id: 746.7B0.222611|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_LEG_DEFL_T: 46.62
+  response: 7B0046226118C
