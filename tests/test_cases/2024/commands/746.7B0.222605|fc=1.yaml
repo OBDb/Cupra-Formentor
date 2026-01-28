@@ -2,4 +2,5 @@ command_id: 746.7B0.222605|fc=1
 test_cases:
 - expected_values:
     CUPRA_CLIMATE_REFRIG_P: 6.6
+    CUPRA_REFRIGERANT_PRESSURE: 6.6
   response: 7B00462260521
