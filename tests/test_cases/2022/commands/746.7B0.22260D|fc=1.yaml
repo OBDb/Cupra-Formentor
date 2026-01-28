@@ -1,0 +1,10 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 41.958
+    CUPRA_FRONT_RIGHT_DEFLECTOR_T: 42
+  response: 7B00462260D7E
+- expected_values:
+    CUPRA_CLIMATE_FR_R_DEFL_T: 42.624
+    CUPRA_FRONT_RIGHT_DEFLECTOR_T: 42.66667
+  response: 7B00462260D80
