@@ -1,0 +1,7 @@
+command_id: 767.7D1.220838|fc=1
+test_cases:
+- expected_values:
+    CUPRA_ECALL_BATTERY_CHARGE_STATUS: 2
+    CUPRA_ECALL_SOC: 98
+    CUPRA_ECALL_STATUS: NORMAL
+  response: 7D1056208380262
