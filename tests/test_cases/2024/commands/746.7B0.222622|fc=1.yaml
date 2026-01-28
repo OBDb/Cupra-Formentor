@@ -2,4 +2,5 @@ command_id: 746.7B0.222622|fc=1
 test_cases:
 - expected_values:
     CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 0
+    CUPRA_FRONT_LEFT_T_FLAP_ACTUAL_VALUE: 0
   response: 7B006622622001600
