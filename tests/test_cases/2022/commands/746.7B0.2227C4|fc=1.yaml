@@ -1,6 +1,12 @@
 command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - expected_values:
+    CUPRA_HVAC_INSIDE_HUM: 77.5
+    CUPRA_WNDSHLD_TEMP: 18.224
+  response: |-
+    7B010086227C463DB11
+    7B021589BAAAAAAAAAA
+- expected_values:
     CUPRA_HVAC_INSIDE_HUM: 70
     CUPRA_WNDSHLD_TEMP: 24.56
   response: |-

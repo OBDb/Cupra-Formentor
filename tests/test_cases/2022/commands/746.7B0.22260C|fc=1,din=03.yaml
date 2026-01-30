@@ -1,0 +1,34 @@
+command_id: 746.7B0.22260C|fc=1,din=03
+test_cases:
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 28
+    CUPRA_PQ35_FL_DEFL_T: 27.972
+  response: 7B00462260C54
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 31.33333
+    CUPRA_PQ35_FL_DEFL_T: 31.302
+  response: 7B00462260C5E
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 41.33333
+    CUPRA_PQ35_FL_DEFL_T: 41.292
+  response: 7B00462260C7C
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 43.33333
+    CUPRA_PQ35_FL_DEFL_T: 43.29
+  response: 7B00462260C82
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 44.66667
+    CUPRA_PQ35_FL_DEFL_T: 44.622
+  response: 7B00462260C86
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 50
+    CUPRA_PQ35_FL_DEFL_T: 49.95
+  response: 7B00462260C96
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 50.66667
+    CUPRA_PQ35_FL_DEFL_T: 50.616
+  response: 7B00462260C98
+- expected_values:
+    CUPRA_FRONT_LEFT_DEFLECTOR_T: 51.33333
+    CUPRA_PQ35_FL_DEFL_T: 51.282
+  response: 7B00462260C9A

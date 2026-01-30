@@ -1,5 +1,11 @@
 command_id: 746.7B0.222604|fc=1
 test_cases:
 - expected_values:
-    CUPRA_CLIMATE_A_C_COMP_LOAD: 0
+    CUPRA_PQ35_AC_COMP_LOAD: 0
   response: 7B00462260400
+- expected_values:
+    CUPRA_PQ35_AC_COMP_LOAD: 1.8
+  response: 7B00462260412
+- expected_values:
+    CUPRA_PQ35_AC_COMP_LOAD: 2.2
+  response: 7B00462260416

@@ -2,11 +2,13 @@ command_id: 710.77A.222A0E
 test_cases:
 - expected_values:
     CUPRA_BAT_INT_R: 0
+    CUPRA_MQB_BAT_INT_RES: 0
     CUPRA_SSB_R: 0
     CUPRA_SSB_RES_INT: 0
   response: 77A04622A0E00
 - expected_values:
     CUPRA_BAT_INT_R: 28.6
+    CUPRA_MQB_BAT_INT_RES: -22.6
     CUPRA_SSB_R: 28.6
     CUPRA_SSB_RES_INT: -22.6
   response: 77A04622A0E8F
