@@ -1,6 +1,6 @@
-command_id: 746.7B0.22260D|fc=1
+command_id: 746.7B0.22260D|fc=1,din=03
 test_cases:
 - expected_values:
-    CUPRA_CLIMATE_FR_R_DEFL_T: 46.62
     CUPRA_FRONT_RIGHT_DEFLECTOR_T: 46.66667
+    CUPRA_PQ35_FR_DEFL_T: 46.62
   response: 7B00462260D8C

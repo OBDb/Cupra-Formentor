@@ -1,5 +1,5 @@
 command_id: 746.7B0.222620|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RECIRC_FLAP_STOP_FRESH: 44
+    CUPRA_MQB_RECIRC_FLAP_FRESH_THR: 44
   response: 7B005622620002C

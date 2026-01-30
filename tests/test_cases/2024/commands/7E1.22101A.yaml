@@ -2,13 +2,17 @@ command_id: 7E1.22101A
 test_cases:
 - expected_values:
     CUPRA_ODO_TCM_2: 12288
+    CUPRA_PQ35_ODO_3: 12288
   response: 7E90762101A00300000
 - expected_values:
     CUPRA_ODO_TCM_2: 16429
+    CUPRA_PQ35_ODO_3: 2965504
   response: 7E90762101A2D400000
 - expected_values:
     CUPRA_ODO_TCM_2: 12285
+    CUPRA_PQ35_ODO_3: 16592640
   response: 7E90762101AFD2F0000
 - expected_values:
     CUPRA_ODO_TCM_2: 12287
+    CUPRA_PQ35_ODO_3: 16723712
   response: 7E90762101AFF2F0000
