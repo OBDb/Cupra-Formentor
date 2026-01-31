@@ -9,6 +9,10 @@ test_cases:
     CUPRA_PQ35_FR_DEFL_T: 31.302
   response: 7B00462260D5E
 - expected_values:
+    CUPRA_FRONT_RIGHT_DEFLECTOR_T: 36.66667
+    CUPRA_PQ35_FR_DEFL_T: 36.63
+  response: 7B00462260D6E
+- expected_values:
     CUPRA_FRONT_RIGHT_DEFLECTOR_T: 40
     CUPRA_PQ35_FR_DEFL_T: 39.96
   response: 7B00462260D78
