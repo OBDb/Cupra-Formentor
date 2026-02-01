@@ -36,3 +36,7 @@ test_cases:
     CUPRA_CLIMATE_REFRIG_P: 7
     CUPRA_PQ35_REF_P: 7
   response: 7B00462260523
+- expected_values:
+    CUPRA_CLIMATE_REFRIG_P: 9
+    CUPRA_PQ35_REF_P: 9
+  response: 7B0046226052D
