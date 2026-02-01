@@ -1,6 +1,16 @@
 command_id: 746.7B0.222612|fc=1
 test_cases:
 - expected_values:
+    CUPRA_HVAC_EVAP_T: 45
+    CUPRA_PQ35_EVAP_OUT_T: 0.333
+    CUPRA_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201C2
+- expected_values:
+    CUPRA_HVAC_EVAP_T: 48
+    CUPRA_PQ35_EVAP_OUT_T: 0.333
+    CUPRA_T_AFTER_EVAPORATOR: 0.33333
+  response: 7B00562261201E0
+- expected_values:
     CUPRA_HVAC_EVAP_T: 71
     CUPRA_PQ35_EVAP_OUT_T: 0.666
     CUPRA_T_AFTER_EVAPORATOR: 0.66667

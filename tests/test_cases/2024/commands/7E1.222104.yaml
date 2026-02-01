@@ -1,37 +1,9 @@
 command_id: 7E1.222104
 test_cases:
 - expected_values:
-    CUPRA_ATF_T: 10
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 50
-  response: '7E9056221043200'
-- expected_values:
-    CUPRA_ATF_T: 19
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 59
-  response: 7E9056221043B00
-- expected_values:
-    CUPRA_ATF_T: 20
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 60
-  response: 7E9056221043C00
-- expected_values:
-    CUPRA_ATF_T: 22
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 62
-  response: 7E9056221043E00
-- expected_values:
-    CUPRA_ATF_T: 23
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 63
-  response: 7E9056221043F00
-- expected_values:
-    CUPRA_ATF_T: 26
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 66
-  response: '7E9056221044200'
-- expected_values:
-    CUPRA_ATF_T: 27
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 67
-  response: '7E9056221044300'
-- expected_values:
-    CUPRA_ATF_T: 38
-    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 78
-  response: 7E9056221044E00
+    CUPRA_ATF_T: -26
+    CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 14
+  response: 7E9056221040E00
 - expected_values:
     CUPRA_ATF_T: 40
     CUPRA_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 80

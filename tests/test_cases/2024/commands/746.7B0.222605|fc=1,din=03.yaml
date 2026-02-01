@@ -1,6 +1,14 @@
 command_id: 746.7B0.222605|fc=1,din=03
 test_cases:
 - expected_values:
+    CUPRA_CLIMATE_REFRIG_P: 4.2
+    CUPRA_PQ35_REF_P: 4.2
+  response: 7B00462260515
+- expected_values:
+    CUPRA_CLIMATE_REFRIG_P: 4.4
+    CUPRA_PQ35_REF_P: 4.4
+  response: 7B00462260516
+- expected_values:
     CUPRA_CLIMATE_REFRIG_P: 6.6
     CUPRA_PQ35_REF_P: 6.6
   response: 7B00462260521

@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CUPRA_PQ35_AC_COMP_LOAD: 0
   response: 7B00462260400
+- expected_values:
+    CUPRA_PQ35_AC_COMP_LOAD: 1.8
+  response: 7B00462260412
+- expected_values:
+    CUPRA_PQ35_AC_COMP_LOAD: 2
+  response: 7B00462260414
