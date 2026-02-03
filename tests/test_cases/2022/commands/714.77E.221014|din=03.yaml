@@ -1,10 +1,10 @@
 command_id: 714.77E.221014|din=03
 test_cases:
 - expected_values:
-    CUPRA_AAT_V3: 56
-    CUPRA_DASH_AMBIENT_AIR_T: 3
-    CUPRA_PQ35_AMB_T: 3
-  response: 77E046210146A
+    CUPRA_AAT_V3: 53
+    CUPRA_DASH_AMBIENT_AIR_T: 1.5
+    CUPRA_PQ35_AMB_T: 1.5
+  response: '77E0462101467'
 - expected_values:
     CUPRA_AAT_V3: 94
     CUPRA_DASH_AMBIENT_AIR_T: 22
