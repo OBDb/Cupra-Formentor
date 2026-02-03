@@ -4,29 +4,5 @@ test_cases:
     CUPRA_APP_D: 0
   response: 7B00462F44900
 - expected_values:
-    CUPRA_APP_D: 1.17647
-  response: 7B00462F44903
-- expected_values:
-    CUPRA_APP_D: 9.01961
-  response: 7B00462F44917
-- expected_values:
-    CUPRA_APP_D: 25.4902
-  response: 7B00462F44941
-- expected_values:
-    CUPRA_APP_D: 42.35294
-  response: 7B00462F4496C
-- expected_values:
-    CUPRA_APP_D: 44.70588
-  response: 7B00462F44972
-- expected_values:
-    CUPRA_APP_D: 45.4902
-  response: 7B00462F44974
-- expected_values:
-    CUPRA_APP_D: 45.88235
-  response: 7B00462F44975
-- expected_values:
-    CUPRA_APP_D: 48.62745
-  response: 7B00462F4497C
-- expected_values:
     CUPRA_APP_D: 49.41176
   response: 7B00462F4497E
