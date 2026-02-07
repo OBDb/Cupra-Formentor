@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_PQ35_CHG_AIR_P: 0
   response: '77E0462221100'
+- expected_values:
+    CUPRA_PQ35_CHG_AIR_P: 52.15686
+  response: '77E0462221185'
