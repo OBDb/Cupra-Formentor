@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     CUPRA_PQ35_OIL_WEAR: 18
   response: 77E0562224B0012
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 19
+  response: 77E0562224B0013
