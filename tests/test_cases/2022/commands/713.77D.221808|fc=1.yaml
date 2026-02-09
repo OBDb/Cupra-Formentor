@@ -22,6 +22,10 @@ test_cases:
   response: 77D056218080020
 - expected_values:
     CUPRA_MQB_HDC_ACT: 0
+    CUPRA_MQB_HDC_INC: 40
+  response: 77D056218080028
+- expected_values:
+    CUPRA_MQB_HDC_ACT: 0
     CUPRA_MQB_HDC_INC: 48
   response: 77D056218080030
 - expected_values:
