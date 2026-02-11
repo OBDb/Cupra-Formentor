@@ -1,6 +1,10 @@
 command_id: 746.7B0.22261E|fc=1
 test_cases:
 - expected_values:
+    CUPRA_MQB_RECIRC_FLAP_ACT: 154
+    CUPRA_RECIRC_FLAP_ACT_PCT: 64.5
+  response: 7B00662261E009A81
+- expected_values:
     CUPRA_MQB_RECIRC_FLAP_ACT: 155
     CUPRA_RECIRC_FLAP_ACT_PCT: 65
   response: 7B00662261E009B82
