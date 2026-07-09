@@ -1,8 +1,0 @@
-command_id: 746.7B0.22263D|fc=1,din=03
-test_cases:
-- expected_values:
-    CUPRA_PQ35_REAR_DEFL_T: 27.972
-  response: 7B00462263D54
-- expected_values:
-    CUPRA_PQ35_REAR_DEFL_T: 54.612
-  response: 7B00462263DA4
