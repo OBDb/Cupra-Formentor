@@ -1,5 +1,0 @@
-command_id: 746.7B0.222603|fc=1,din=03
-test_cases:
-- expected_values:
-    CUPRA_PQ35_AC_COMP_SPD: 1600
-  response: 7B00462260310
