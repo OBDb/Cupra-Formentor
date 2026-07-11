@@ -1,0 +1,5 @@
+command_id: 70F.779.222BE6|fc=1
+test_cases:
+- expected_values:
+    CUPRA_PQ35_HAL_I: 0
+  response: 77905622BE60000

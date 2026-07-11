@@ -1,0 +1,10 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    CUPRA_AAT: 51
+    CUPRA_PQ35_OUT_T: 51
+  response: 7B00462260966
+- expected_values:
+    CUPRA_AAT: -40
+    CUPRA_PQ35_OUT_T: -40
+  response: 7B004622609B0
