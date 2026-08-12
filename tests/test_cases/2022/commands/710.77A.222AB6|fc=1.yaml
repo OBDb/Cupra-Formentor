@@ -9,17 +9,22 @@ test_cases:
     CUPRA_RANGE: 80
   response: |-
     77A100A622AB6005000
-    77A215007FD19AAAAAA
+    77A215007FD07AAAAAA
+- expected_values:
+    CUPRA_RANGE: 85
+  response: |-
+    77A100A622AB6005500
+    77A215507FD1FAAAAAA
+- expected_values:
+    CUPRA_RANGE: 95
+  response: |-
+    77A100A622AB6005F00
+    77A215F07FD01AAAAAA
 - expected_values:
     CUPRA_RANGE: 225
   response: |-
     77A100A622AB600E100
     77A21E107FD21AAAAAA
-- expected_values:
-    CUPRA_RANGE: 230
-  response: |-
-    77A100A622AB600E600
-    77A21E607FD1FAAAAAA
 - expected_values:
     CUPRA_RANGE: 240
   response: |-
