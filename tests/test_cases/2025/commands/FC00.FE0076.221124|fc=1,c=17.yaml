@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.221124|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_CAMSHAFT_VSS: 0
+  response: 17FE0076056211240000

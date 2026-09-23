@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.2224FC|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_FUEL_TANK_FILL_LEVEL: 18.4
+  response: 17FE0076056224FC00B8
+- expected_values:
+    CUPRA_FUEL_TANK_FILL_LEVEL: 18.5
+  response: 17FE0076056224FC00B9

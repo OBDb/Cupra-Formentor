@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.22105A|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_BATTERY_V: 14480
+  response: 17FE00760562105A02D4
+- expected_values:
+    CUPRA_BATTERY_V: 14500
+  response: 17FE00760562105A02D5

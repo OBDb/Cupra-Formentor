@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.221135|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_COOLANT_T_AT_RADIATOR_OUTPUT_SPECIFIED_VALUE: 90
+  response: 17FE0076056211350E2F
