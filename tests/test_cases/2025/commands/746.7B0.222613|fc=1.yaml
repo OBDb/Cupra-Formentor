@@ -1,0 +1,10 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CABIN_T: 20
+    CUPRA_HVAC_INTERIOR_T: 20
+  response: 7B00562261300C8
+- expected_values:
+    CUPRA_CABIN_T: 25.9
+    CUPRA_HVAC_INTERIOR_T: 25.9
+  response: 7B0056226130103

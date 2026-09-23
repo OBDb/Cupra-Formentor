@@ -1,0 +1,26 @@
+command_id: FC00.FE007B.221E36|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 344.62476
+  response: 17FE007B05621E362B14
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 345.99976
+  response: 17FE007B05621E362B40
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 375.15599
+  response: 17FE007B05621E362EE5
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 376.62474
+  response: 17FE007B05621E362F14
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 377.21849
+  response: 17FE007B05621E362F27
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 378.93724
+  response: 17FE007B05621E362F5E
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 380.59349
+  response: 17FE007B05621E362F93
+- expected_values:
+    CUPRA_HVBAT_V_BEFORE: 381.37474
+  response: 17FE007B05621E362FAC

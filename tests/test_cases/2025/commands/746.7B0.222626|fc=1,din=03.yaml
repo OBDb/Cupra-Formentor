@@ -1,0 +1,18 @@
+command_id: 746.7B0.222626|fc=1,din=03
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 0
+    CUPRA_PQ35_FR_TEMP_FLAP: 0
+  response: 7B006622626005A00
+- expected_values:
+    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 82
+    CUPRA_PQ35_FR_TEMP_FLAP: 82
+  response: 7B00662262602FFA4
+- expected_values:
+    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 84.5
+    CUPRA_PQ35_FR_TEMP_FLAP: 84.5
+  response: 7B0066226260315A9
+- expected_values:
+    CUPRA_CLIMATE_FR_R_T_FLP_ACT_VALUE: 100
+    CUPRA_PQ35_FR_TEMP_FLAP: 100
+  response: 7B006622626FFFFFF

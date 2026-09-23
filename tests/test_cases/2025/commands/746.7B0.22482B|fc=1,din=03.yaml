@@ -1,0 +1,5 @@
+command_id: 746.7B0.22482B|fc=1,din=03
+test_cases:
+- expected_values:
+    CUPRA_PQ35_AC_CLUTCH: 255
+  response: 7B00462482BFF

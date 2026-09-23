@@ -1,0 +1,10 @@
+command_id: 746.7B0.222606|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_RAD_FAN_ACT_DUTY: 0
+    CUPRA_PQ35_RAD_FAN_DUTY: 0
+  response: 7B00462260600
+- expected_values:
+    CUPRA_CLIMATE_RAD_FAN_ACT_DUTY: 40
+    CUPRA_PQ35_RAD_FAN_DUTY: 40
+  response: 7B00462260664

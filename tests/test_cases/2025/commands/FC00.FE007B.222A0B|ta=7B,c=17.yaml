@@ -1,0 +1,17 @@
+command_id: FC00.FE007B.222A0B|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_BATTERY_T: 18
+  response: 17FE007B04622A0B74
+- expected_values:
+    CUPRA_BATTERY_T: 19
+  response: 17FE007B04622A0B76
+- expected_values:
+    CUPRA_BATTERY_T: 19.5
+  response: 17FE007B04622A0B77
+- expected_values:
+    CUPRA_BATTERY_T: 20
+  response: 17FE007B04622A0B78
+- expected_values:
+    CUPRA_BATTERY_T: 20.5
+  response: 17FE007B04622A0B79
