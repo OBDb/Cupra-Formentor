@@ -1,0 +1,20 @@
+command_id: 714.77E.22224B|din=03
+test_cases:
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 2
+  response: 77E0562224B0002
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 3
+  response: 77E0562224B0003
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 4
+  response: 77E0562224B0004
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 5
+  response: 77E0562224B0005
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 6
+  response: 77E0562224B0006
+- expected_values:
+    CUPRA_PQ35_OIL_WEAR: 7
+  response: 77E0562224B0007
