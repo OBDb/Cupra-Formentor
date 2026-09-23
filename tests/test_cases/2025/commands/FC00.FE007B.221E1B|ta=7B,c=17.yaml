@@ -4,26 +4,5 @@ test_cases:
     CUPRA_HVBAT_I_LIM_CHG: 160.2
   response: 17FE007B05621E1B0321
 - expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 161
-  response: 17FE007B05621E1B0325
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 161.4
-  response: 17FE007B05621E1B0327
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 164.4
-  response: 17FE007B05621E1B0336
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 167.8
-  response: 17FE007B05621E1B0347
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 171.2
-  response: 17FE007B05621E1B0358
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 171.6
-  response: 17FE007B05621E1B035A
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 193.4
-  response: 17FE007B05621E1B03C7
-- expected_values:
-    CUPRA_HVBAT_I_LIM_CHG: 194
-  response: 17FE007B05621E1B03CA
+    CUPRA_HVBAT_I_LIM_CHG: 199.2
+  response: 17FE007B05621E1B03E4

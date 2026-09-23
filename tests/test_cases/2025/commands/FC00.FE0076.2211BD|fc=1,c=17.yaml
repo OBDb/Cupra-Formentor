@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.2211BD|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_EOT_V3: 54.7
+  response: 17FE0076056211BD0CCE
+- expected_values:
+    CUPRA_EOT_V3: 56.6
+  response: 17FE0076056211BD0CE1

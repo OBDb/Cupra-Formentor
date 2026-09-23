@@ -4,23 +4,5 @@ test_cases:
     CUPRA_VSS_V2: 0
   response: 17FE007B0462F40D00
 - expected_values:
-    CUPRA_VSS_V2: 2
-  response: 17FE007B0462F40D02
-- expected_values:
-    CUPRA_VSS_V2: 12
-  response: 17FE007B0462F40D0C
-- expected_values:
-    CUPRA_VSS_V2: 37
-  response: 17FE007B0462F40D25
-- expected_values:
-    CUPRA_VSS_V2: 44
-  response: 17FE007B0462F40D2C
-- expected_values:
-    CUPRA_VSS_V2: 63
-  response: 17FE007B0462F40D3F
-- expected_values:
-    CUPRA_VSS_V2: 89
-  response: 17FE007B0462F40D59
-- expected_values:
     CUPRA_VSS_V2: 102
   response: 17FE007B0462F40D66
