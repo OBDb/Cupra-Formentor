@@ -1,0 +1,26 @@
+command_id: FC00.FE007B.221E75|ta=7B,c=17
+test_cases:
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.598
+  response: 17FE007B05621E750A26
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.599
+  response: 17FE007B05621E750A27
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.87
+  response: 17FE007B05621E750B36
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.93
+  response: 17FE007B05621E750B72
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.931
+  response: 17FE007B05621E750B73
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.939
+  response: 17FE007B05621E750B7B
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.962
+  response: 17FE007B05621E750B92
+- expected_values:
+    CUPRA_HVBAT_CELL_V_054: 3.973
+  response: 17FE007B05621E750B9D
