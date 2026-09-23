@@ -4,23 +4,8 @@ test_cases:
     CUPRA_HVBAT_CELL_V_050: 3.586
   response: 17FE007B05621E710A1A
 - expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.601
-  response: 17FE007B05621E710A29
+    CUPRA_HVBAT_CELL_V_050: 4.062
+  response: 17FE007B05621E710BF6
 - expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.872
-  response: 17FE007B05621E710B38
-- expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.927
-  response: 17FE007B05621E710B6F
-- expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.934
-  response: 17FE007B05621E710B76
-- expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.947
-  response: 17FE007B05621E710B83
-- expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.957
-  response: 17FE007B05621E710B8D
-- expected_values:
-    CUPRA_HVBAT_CELL_V_050: 3.959
-  response: 17FE007B05621E710B8F
+    CUPRA_HVBAT_CELL_V_050: 4.084
+  response: 17FE007B05621E710C0C

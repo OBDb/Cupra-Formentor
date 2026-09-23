@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.2210E0|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_VEHICLE_DIST_DRIVEN: 26315
+  response: 17FE0076076210E0000066CB
+- expected_values:
+    CUPRA_VEHICLE_DIST_DRIVEN: 26317
+  response: 17FE0076076210E0000066CD

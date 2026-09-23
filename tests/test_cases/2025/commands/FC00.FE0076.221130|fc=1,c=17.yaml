@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.221130|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_COOLANT_FAN_1_ACTIVATION: 24.6
+  response: 17FE007605621130099C

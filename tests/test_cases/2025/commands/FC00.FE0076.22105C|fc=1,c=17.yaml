@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.22105C|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_BRAKE_PRES: 0
+  response: 17FE00760562105C0000

@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.221291|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_COOLANT_T_AT_ENGINE_START: 65
+  response: 17FE0076056212910D35
+- expected_values:
+    CUPRA_COOLANT_T_AT_ENGINE_START: 67.2
+  response: 17FE0076056212910D4B

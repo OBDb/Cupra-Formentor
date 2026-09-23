@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.22291F|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_MISFIRES_1000_RPM_C4: 0
+  response: 17FE00760562291F0000

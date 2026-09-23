@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.2214B4|fc=1,c=17
+test_cases:
+- expected_values:
+    CUPRA_FLI_V2: 18
+  response: 17FE0076056214B40708
