@@ -1,10 +1,10 @@
 command_id: 710.77A.222AB8|fc=1
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_KWH: 15475
+    CUPRA_HVBAT_KWH: 15150
   response: |-
-    77A100B622AB800AF02
-    77A216B00000000AAAA
+    77A100B622AB800AC02
+    77A215E00000000AAAA
 - expected_values:
     CUPRA_HVBAT_KWH: 15600
   response: |-
