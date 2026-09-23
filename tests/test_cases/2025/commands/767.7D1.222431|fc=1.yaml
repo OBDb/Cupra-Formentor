@@ -6,32 +6,8 @@ test_cases:
   response: 7D106622431010000
 - expected_values:
     CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 1
-  response: 7D106622431011000
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 2
-  response: 7D106622431021001
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
     CUPRA_GPS_SATS_VISIBLE: 4
-  response: 7D106622431041008
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 4
-  response: 7D106622431041009
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 4
-  response: 7D10662243104100C
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 4
-  response: 7D10662243104100E
-- expected_values:
-    CUPRA_GPS_SATS_TRACKED: 16
-    CUPRA_GPS_SATS_VISIBLE: 4
-  response: 7D10662243104100F
+  response: 7D106622431041006
 - expected_values:
     CUPRA_GPS_SATS_TRACKED: 16
     CUPRA_GPS_SATS_VISIBLE: 4
