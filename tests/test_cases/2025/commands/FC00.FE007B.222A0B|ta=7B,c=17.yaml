@@ -4,29 +4,5 @@ test_cases:
     CUPRA_BATTERY_T: 18
   response: 17FE007B04622A0B74
 - expected_values:
-    CUPRA_BATTERY_T: 19
-  response: 17FE007B04622A0B76
-- expected_values:
-    CUPRA_BATTERY_T: 19.5
-  response: 17FE007B04622A0B77
-- expected_values:
-    CUPRA_BATTERY_T: 20
-  response: 17FE007B04622A0B78
-- expected_values:
-    CUPRA_BATTERY_T: 20.5
-  response: 17FE007B04622A0B79
-- expected_values:
-    CUPRA_BATTERY_T: 22.5
-  response: 17FE007B04622A0B7D
-- expected_values:
-    CUPRA_BATTERY_T: 23
-  response: 17FE007B04622A0B7E
-- expected_values:
-    CUPRA_BATTERY_T: 23.5
-  response: 17FE007B04622A0B7F
-- expected_values:
-    CUPRA_BATTERY_T: 25.5
-  response: 17FE007B04622A0B83
-- expected_values:
     CUPRA_BATTERY_T: 26
   response: 17FE007B04622A0B84
