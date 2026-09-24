@@ -1,30 +1,45 @@
 command_id: 710.77A.222AB5|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RANGE_EST_CAN: 49
+    CUPRA_RANGE_EST_CAN: 26
   response: |-
-    77A100D622AB5011300
-    77A21E2003107FF0000
+    77A100D622AB500BD00
+    77A21A3001A07FF0000
 - expected_values:
-    CUPRA_RANGE_EST_CAN: 64
+    CUPRA_RANGE_EST_CAN: 31
   response: |-
-    77A100D622AB5012D00
-    77A21ED004007FF0000
+    77A100D622AB500CD00
+    77A21AE001F07FF0000
+- expected_values:
+    CUPRA_RANGE_EST_CAN: 32
+  response: |-
+    77A100D622AB500D800
+    77A21B8002007FF0000
+- expected_values:
+    CUPRA_RANGE_EST_CAN: 38
+  response: |-
+    77A100D622AB500F600
+    77A21D0002607FF0000
+- expected_values:
+    CUPRA_RANGE_EST_CAN: 40
+  response: |-
+    77A100D622AB500FD00
+    77A21D5002807FF0000
+- expected_values:
+    CUPRA_RANGE_EST_CAN: 41
+  response: |-
+    77A100D622AB5010200
+    77A21D9002907FF0000
+- expected_values:
+    CUPRA_RANGE_EST_CAN: 43
+  response: |-
+    77A100D622AB5010A00
+    77A21DF002B07FF0000
 - expected_values:
     CUPRA_RANGE_EST_CAN: 66
   response: |-
     77A100D622AB5013300
     77A21F1004207FF0000
-- expected_values:
-    CUPRA_RANGE_EST_CAN: 72
-  response: |-
-    77A100D622AB5013800
-    77A21F0004807FF0000
-- expected_values:
-    CUPRA_RANGE_EST_CAN: 79
-  response: |-
-    77A100D622AB5014400
-    77A21F5004F07FF0000
 - expected_values:
     CUPRA_RANGE_EST_CAN: 96
   response: |-
@@ -36,11 +51,6 @@ test_cases:
     77A100D622AB5016801
     77A2101006707FF0000
 - expected_values:
-    CUPRA_RANGE_EST_CAN: 72
-  response: |-
-    77A100D622AB5017701
-    77A212F004807FF0000
-- expected_values:
     CUPRA_RANGE_EST_CAN: 3
   response: |-
     77A100D622AB5018001
@@ -50,11 +60,6 @@ test_cases:
   response: |-
     77A100D622AB501B501
     77A214E006700000000
-- expected_values:
-    CUPRA_RANGE_EST_CAN: 2
-  response: |-
-    77A100D622AB501FD01
-    77A21FB000207FF0000
 - expected_values:
     CUPRA_RANGE_EST_CAN: 2
   response: |-
