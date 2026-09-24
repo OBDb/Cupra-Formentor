@@ -1,8 +1,8 @@
 command_id: 746.7B0.22261F|fc=1
 test_cases:
 - expected_values:
-    CUPRA_MQB_RECIRC_FLAP_TRG: 396
-  response: 7B00562261F018C
+    CUPRA_MQB_RECIRC_FLAP_TRG: 390
+  response: 7B00562261F0186
 - expected_values:
     CUPRA_MQB_RECIRC_FLAP_TRG: 510
   response: 7B00562261F01FE

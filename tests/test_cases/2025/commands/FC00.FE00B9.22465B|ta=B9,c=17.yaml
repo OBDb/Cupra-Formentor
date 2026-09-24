@@ -4,8 +4,8 @@ test_cases:
     CUPRA_DCDC_I_ALT: 0
   response: 17FE00B90562465B0000
 - expected_values:
-    CUPRA_DCDC_I_ALT: 31.6875
-  response: 17FE00B90562465B01FB
+    CUPRA_DCDC_I_ALT: 31.9375
+  response: 17FE00B90562465B01FF
 - expected_values:
     CUPRA_DCDC_I_ALT: 51
   response: 17FE00B90562465B0330
