@@ -49,6 +49,12 @@ test_cases:
     7B010086227C477ECD2
     7B021402EAAAAAAAAAA
 - expected_values:
+    CUPRA_HVAC_INSIDE_HUM: 59.5
+    CUPRA_WNDSHLD_TEMP: 30.32
+  response: |-
+    7B010086227C47822E1
+    7B021C077AAAAAAAAAA
+- expected_values:
     CUPRA_HVAC_INSIDE_HUM: 14.5
     CUPRA_WNDSHLD_TEMP: 40.688
   response: |-
