@@ -5,10 +5,6 @@ test_cases:
     CUPRA_HVBAT_T_MIN_ID: 7
   response: 17FE007B07621E0F04700007
 - expected_values:
-    CUPRA_HVBAT_T_MIN: 19
-    CUPRA_HVBAT_T_MIN_ID: 4
-  response: 17FE007B07621E0F04C00004
-- expected_values:
     CUPRA_HVBAT_T_MIN: 19.875
     CUPRA_HVBAT_T_MIN_ID: 4
   response: 17FE007B07621E0F04F80004
@@ -16,6 +12,10 @@ test_cases:
     CUPRA_HVBAT_T_MIN: 20
     CUPRA_HVBAT_T_MIN_ID: 4
   response: 17FE007B07621E0F05000004
+- expected_values:
+    CUPRA_HVBAT_T_MIN: 22.5
+    CUPRA_HVBAT_T_MIN_ID: 3
+  response: 17FE007B07621E0F05A00003
 - expected_values:
     CUPRA_HVBAT_T_MIN: 25.375
     CUPRA_HVBAT_T_MIN_ID: 8
