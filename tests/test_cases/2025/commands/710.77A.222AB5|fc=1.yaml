@@ -1,10 +1,10 @@
 command_id: 710.77A.222AB5|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RANGE_EST_CAN: 26
+    CUPRA_RANGE_EST_CAN: 20
   response: |-
-    77A100D622AB500BD00
-    77A21A3001A07FF0000
+    77A100D622AB500B300
+    77A219F001407FF0000
 - expected_values:
     CUPRA_RANGE_EST_CAN: 31
   response: |-
@@ -30,11 +30,6 @@ test_cases:
   response: |-
     77A100D622AB5010200
     77A21D9002907FF0000
-- expected_values:
-    CUPRA_RANGE_EST_CAN: 43
-  response: |-
-    77A100D622AB5010A00
-    77A21DF002B07FF0000
 - expected_values:
     CUPRA_RANGE_EST_CAN: 66
   response: |-
