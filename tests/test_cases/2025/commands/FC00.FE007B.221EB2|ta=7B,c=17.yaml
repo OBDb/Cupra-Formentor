@@ -4,8 +4,8 @@ test_cases:
     CUPRA_HVBAT_MOD_T_5: 18
   response: 17FE007B05621EB201D0
 - expected_values:
-    CUPRA_HVBAT_MOD_T_5: 21.375
-  response: 17FE007B05621EB201EB
+    CUPRA_HVBAT_MOD_T_5: 23.875
+  response: 17FE007B05621EB201FF
 - expected_values:
-    CUPRA_HVBAT_MOD_T_5: 26.5
-  response: 17FE007B05621EB20214
+    CUPRA_HVBAT_MOD_T_5: 24.25
+  response: 17FE007B05621EB20202
