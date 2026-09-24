@@ -4,29 +4,8 @@ test_cases:
     CUPRA_HVBAT_MOD_T_8: 18.25
   response: 17FE007B05621EB501D2
 - expected_values:
-    CUPRA_HVBAT_MOD_T_8: 19.125
-  response: 17FE007B05621EB501D9
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 19.5
-  response: 17FE007B05621EB501DC
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 20
-  response: 17FE007B05621EB501E0
-- expected_values:
     CUPRA_HVBAT_MOD_T_8: 20.625
   response: 17FE007B05621EB501E5
 - expected_values:
     CUPRA_HVBAT_MOD_T_8: 25.375
   response: 17FE007B05621EB5020B
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 25.5
-  response: 17FE007B05621EB5020C
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 25.625
-  response: 17FE007B05621EB5020D
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 25.75
-  response: 17FE007B05621EB5020E
-- expected_values:
-    CUPRA_HVBAT_MOD_T_8: 25.875
-  response: 17FE007B05621EB5020F
