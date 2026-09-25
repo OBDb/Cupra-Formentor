@@ -1,5 +1,8 @@
 command_id: FC00.FE0076.2214F9|fc=1,c=17
 test_cases:
 - expected_values:
+    CUPRA_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR: 0.95314
+  response: 17FE0076056214F97A00
+- expected_values:
     CUPRA_MAIN_CAT_OSC_AGE_CORRECTION_FACTOR: 0.97658
   response: 17FE0076056214F97D00
