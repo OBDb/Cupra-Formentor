@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_MISFIRES_C3_V2: 43
   response: 17FE007605622967002B
+- expected_values:
+    CUPRA_MISFIRES_C3_V2: 63
+  response: 17FE007605622967003F

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_MISFIRES_C4: 33
   response: 17FE0076056229680021
+- expected_values:
+    CUPRA_MISFIRES_C4: 52
+  response: 17FE0076056229680034

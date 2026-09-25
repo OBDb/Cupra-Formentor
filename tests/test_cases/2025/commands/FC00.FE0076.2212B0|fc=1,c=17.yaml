@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_ACCELERATION_29BIT: -0.428
   response: 17FE0076056212B0FE54
+- expected_values:
+    CUPRA_ACCELERATION_29BIT: -0.294
+  response: 17FE0076056212B0FEDA

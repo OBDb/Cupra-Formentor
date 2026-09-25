@@ -19,7 +19,7 @@ test_cases:
 - expected_values:
     CUPRA_HVBAT_CELL_V_MAX: 15.997
     CUPRA_HVBAT_CELL_V_MAX_ID: 2
-  response: 17FE007B07621E3340FA0002
+  response: 17FE007B07621E333EFE0002
 - expected_values:
     CUPRA_HVBAT_CELL_V_MAX: 15.997
     CUPRA_HVBAT_CELL_V_MAX_ID: 3

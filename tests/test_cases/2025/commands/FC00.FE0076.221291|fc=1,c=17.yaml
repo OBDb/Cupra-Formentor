@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_COOLANT_T_AT_ENGINE_START: 67.2
   response: 17FE0076056212910D4B
+- expected_values:
+    CUPRA_COOLANT_T_AT_ENGINE_START: 77.4
+  response: 17FE0076056212910DB1

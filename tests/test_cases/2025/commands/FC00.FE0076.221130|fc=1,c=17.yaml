@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_COOLANT_FAN_1_ACTIVATION: 24.6
   response: 17FE007605621130099C
+- expected_values:
+    CUPRA_COOLANT_FAN_1_ACTIVATION: 25
+  response: 17FE00760562113009C4

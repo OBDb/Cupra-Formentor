@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CUPRA_FLI_V2: 18
   response: 17FE0076056214B40708
+- expected_values:
+    CUPRA_FLI_V2: 41
+  response: 17FE0076056214B41004

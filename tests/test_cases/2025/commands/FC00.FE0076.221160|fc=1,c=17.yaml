@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_ECU_DIST_DRIVEN: 26263.393
   response: 17FE0076076211600190BF61
+- expected_values:
+    CUPRA_ECU_DIST_DRIVEN: 26578.64
+  response: 17FE00760762116001958ED0
