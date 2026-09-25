@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_FUEL_TANK_FILL_LEVEL: 18.5
   response: 17FE0076056224FC00B9
+- expected_values:
+    CUPRA_FUEL_TANK_FILL_LEVEL: 41.5
+  response: 17FE0076056224FC019F

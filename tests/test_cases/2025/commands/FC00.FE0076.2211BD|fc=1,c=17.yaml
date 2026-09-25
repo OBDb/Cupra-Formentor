@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CUPRA_EOT_V3: 56.6
   response: 17FE0076056211BD0CE1
+- expected_values:
+    CUPRA_EOT_V3: 72
+  response: 17FE0076056211BD0D7B
