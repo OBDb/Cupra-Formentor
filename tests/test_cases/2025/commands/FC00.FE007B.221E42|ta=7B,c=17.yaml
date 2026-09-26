@@ -4,8 +4,8 @@ test_cases:
     CUPRA_HVBAT_CELL_V_003: 3.509
   response: 17FE007B05621E4209CD
 - expected_values:
-    CUPRA_HVBAT_CELL_V_003: 3.564
-  response: 17FE007B05621E420A04
+    CUPRA_HVBAT_CELL_V_003: 3.56
+  response: 17FE007B05621E420A00
 - expected_values:
     CUPRA_HVBAT_CELL_V_003: 4.069
   response: 17FE007B05621E420BFD

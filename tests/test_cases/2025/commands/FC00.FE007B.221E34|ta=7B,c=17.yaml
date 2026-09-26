@@ -7,7 +7,7 @@ test_cases:
 - expected_values:
     CUPRA_HVBAT_CELL_V_MIN: 15.997
     CUPRA_HVBAT_CELL_V_MIN_ID: 95
-  response: 17FE007B07621E3438C5005F
+  response: 17FE007B07621E34389C005F
 - expected_values:
     CUPRA_HVBAT_CELL_V_MIN: 15.997
     CUPRA_HVBAT_CELL_V_MIN_ID: 95
