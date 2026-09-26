@@ -4,5 +4,5 @@ test_cases:
     CUPRA_BATTERY_T: 18
   response: 17FE007B04622A0B74
 - expected_values:
-    CUPRA_BATTERY_T: 26
-  response: 17FE007B04622A0B84
+    CUPRA_BATTERY_T: 28.5
+  response: 17FE007B04622A0B89
