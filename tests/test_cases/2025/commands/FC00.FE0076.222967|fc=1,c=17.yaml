@@ -1,8 +1,8 @@
 command_id: FC00.FE0076.222967|fc=1,c=17
 test_cases:
 - expected_values:
-    CUPRA_MISFIRES_C3_V2: 43
+    CUPRA_MISFIRES_C3_FC00: 43
   response: 17FE007605622967002B
 - expected_values:
-    CUPRA_MISFIRES_C3_V2: 63
+    CUPRA_MISFIRES_C3_FC00: 63
   response: 17FE007605622967003F
