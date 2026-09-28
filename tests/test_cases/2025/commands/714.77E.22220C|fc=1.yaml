@@ -10,6 +10,9 @@ test_cases:
     CUPRA_OUTSIDE_T: 16.5
   response: 77E0462220C85
 - expected_values:
+    CUPRA_OUTSIDE_T: 19.5
+  response: 77E0462220C8B
+- expected_values:
     CUPRA_OUTSIDE_T: 22.5
   response: 77E0462220C91
 - expected_values:
@@ -18,6 +21,9 @@ test_cases:
 - expected_values:
     CUPRA_OUTSIDE_T: 25.5
   response: 77E0462220C97
+- expected_values:
+    CUPRA_OUTSIDE_T: 26
+  response: 77E0462220C98
 - expected_values:
     CUPRA_OUTSIDE_T: 27
   response: 77E0462220C9A
