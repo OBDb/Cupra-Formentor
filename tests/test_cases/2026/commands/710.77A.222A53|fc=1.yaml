@@ -28,3 +28,10 @@ test_cases:
   response: |-
     77A100A622A5384021C
     77A2102FA0200AAAAAA
+- expected_values:
+    CUPRA_DCDC_I: 31
+    CUPRA_DCDC_I_RSV: 249
+    CUPRA_DCDC_V_LOW: 14.5
+  response: |-
+    77A100A622A5391021E
+    77A2102F80200AAAAAA
