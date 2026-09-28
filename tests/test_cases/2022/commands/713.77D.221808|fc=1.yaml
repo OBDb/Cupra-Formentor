@@ -1,10 +1,10 @@
 command_id: 713.77D.221808|fc=1
 test_cases:
 - expected_values:
-    CUPRA_MQB_HDC_ACT: 0
-    CUPRA_MQB_HDC_INC: 0
+    CUPRA_HDC_ACT: 0
+    CUPRA_HDC_INC: 0
   response: 77D056218080000
 - expected_values:
-    CUPRA_MQB_HDC_ACT: 0
-    CUPRA_MQB_HDC_INC: 80
+    CUPRA_HDC_ACT: 0
+    CUPRA_HDC_INC: 80
   response: 77D056218080050

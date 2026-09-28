@@ -1,0 +1,14 @@
+command_id: 746.7B0.222622|fc=1
+test_cases:
+- expected_values:
+    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 40.5
+    CUPRA_FL_T_FLAP_ACT: 40.5
+  response: 7B00662262201B551
+- expected_values:
+    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 45
+    CUPRA_FL_T_FLAP_ACT: 45
+  response: 7B00662262201DA5A
+- expected_values:
+    CUPRA_CLIMATE_FR_L_T_FLP_ACT_VALUE: 46
+    CUPRA_FL_T_FLAP_ACT: 46
+  response: 7B00662262201E45C
