@@ -21,3 +21,9 @@ test_cases:
 - expected_values:
     CUPRA_ODO_MILEAGE_HR: 26896.918
   response: 77E076222B8019A6A16
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26901.59
+  response: 77E076222B8019A7C56
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26902.44
+  response: 77E076222B8019A7FA8
