@@ -1,0 +1,23 @@
+command_id: 714.77E.2222B8|fc=1
+test_cases:
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26875.842
+  response: 77E076222B8019A17C2
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26878.362
+  response: 77E076222B8019A219A
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26879.562
+  response: 77E076222B8019A264A
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26882.175
+  response: 77E076222B8019A307F
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26883.838
+  response: 77E076222B8019A36FE
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26885.695
+  response: 77E076222B8019A3E3F
+- expected_values:
+    CUPRA_ODO_MILEAGE_HR: 26896.918
+  response: 77E076222B8019A6A16
