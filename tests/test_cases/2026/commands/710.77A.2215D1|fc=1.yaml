@@ -1,0 +1,10 @@
+command_id: 710.77A.2215D1|fc=1
+test_cases:
+- expected_values:
+    CUPRA_HV_EM_NV_PWR_LIMITATION: 8900
+    CUPRA_HV_EM_PWR_LIMITATION: 50
+  response: 77A076215D1010001B2
+- expected_values:
+    CUPRA_HV_EM_NV_PWR_LIMITATION: 9200
+    CUPRA_HV_EM_PWR_LIMITATION: 50
+  response: 77A076215D1010001B8
