@@ -1,9 +1,9 @@
 command_id: 746.7B0.222611|fc=1,din=03
 test_cases:
 - expected_values:
-    CUPRA_LEG_DEFLECTOR_T: 32.66667
-    CUPRA_LEG_DEFL_T: 32.634
-  response: 7B00462261162
+    CUPRA_LEG_DEFLECTOR_T: 30.66667
+    CUPRA_LEG_DEFL_T: 30.636
+  response: 7B0046226115C
 - expected_values:
     CUPRA_LEG_DEFLECTOR_T: 62.66667
     CUPRA_LEG_DEFL_T: 62.604

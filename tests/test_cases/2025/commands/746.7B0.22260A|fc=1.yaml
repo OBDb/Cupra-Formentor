@@ -5,6 +5,6 @@ test_cases:
     CUPRA_OUTSIDE_T_SYSTEM: 58
   response: 7B00462260A74
 - expected_values:
-    CUPRA_AAT_CABIN: 27
-    CUPRA_OUTSIDE_T_SYSTEM: -51
-  response: 7B00462260A9A
+    CUPRA_AAT_CABIN: 28
+    CUPRA_OUTSIDE_T_SYSTEM: -50
+  response: 7B00462260A9C
