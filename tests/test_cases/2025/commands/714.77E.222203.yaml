@@ -5,3 +5,8 @@ test_cases:
     CUPRA_ODO_V2: 27044
     CUPRA_PQ35_ODO: 1050
   response: 77E066222030069A4
+- expected_values:
+    CUPRA_ODO_DASH: 255
+    CUPRA_ODO_V2: 27096
+    CUPRA_PQ35_ODO: 1050
+  response: 77E066222030069D8
