@@ -1,0 +1,7 @@
+command_id: 714.77E.222203
+test_cases:
+- expected_values:
+    CUPRA_ODO_DASH: 255
+    CUPRA_ODO_V2: 27044
+    CUPRA_PQ35_ODO: 1050
+  response: 77E066222030069A4
