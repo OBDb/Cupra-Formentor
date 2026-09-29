@@ -1,0 +1,16 @@
+command_id: 713.77D.221800|fc=1
+test_cases:
+- expected_values:
+    CUPRA_FL_VSS: 245
+    CUPRA_FL_VSS_V2: 245
+  response: |-
+    77D1010621800099220
+    77D21000780FFFFFFFF
+    77D22FFFF01AAAAAAAA
+- expected_values:
+    CUPRA_FL_VSS: 342.9
+    CUPRA_FL_VSS_V2: 342.9
+  response: |-
+    77D10106218000D6520
+    77D21000780FFFFFFFF
+    77D22FFFF01AAAAAAAA
