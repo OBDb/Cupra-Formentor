@@ -1,6 +1,10 @@
 command_id: 746.7B0.22260D|fc=1
 test_cases:
 - expected_values:
+    CUPRA_FRONT_RIGHT_DEFLECTOR_T: 31
+    CUPRA_FR_DEFL_T: 30.969
+  response: 7B00462260D5D
+- expected_values:
     CUPRA_FRONT_RIGHT_DEFLECTOR_T: 31.33333
     CUPRA_FR_DEFL_T: 31.302
   response: 7B00462260D5E
