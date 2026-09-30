@@ -5,6 +5,6 @@ test_cases:
     CUPRA_DASH_AMBIENT_AIR_T: 8.5
   response: '77E0462101475'
 - expected_values:
-    CUPRA_AAT: 104
-    CUPRA_DASH_AMBIENT_AIR_T: 27
-  response: 77E046210149A
+    CUPRA_AAT: 105
+    CUPRA_DASH_AMBIENT_AIR_T: 27.5
+  response: 77E046210149B
