@@ -15,9 +15,9 @@ test_cases:
 - expected_values:
     CUPRA_AC_CMPR_PWR_ACT: 65535
   response: |-
-    7B0100E620800500000
+    7B0100E620800100000
     7B0210000FFFF005F80
-    7B02254AAAAAAAAAAAA
+    7B02250AAAAAAAAAAAA
 - expected_values:
     CUPRA_AC_CMPR_PWR_ACT: 255
   response: |-
