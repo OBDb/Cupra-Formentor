@@ -1,6 +1,20 @@
 command_id: 713.77D.221801|fc=1
 test_cases:
 - expected_values:
+    CUPRA_FR_VSS: 0
+    CUPRA_FR_VSS_V2: 0
+  response: |-
+    77D1010621801000000
+    77D21FFFF00FFFEFFFE
+    77D22FFFE01AAAAAAAA
+- expected_values:
+    CUPRA_FR_VSS: 0
+    CUPRA_FR_VSS_V2: 0
+  response: |-
+    77D1010621801000020
+    77D21FFFF00FFFEFFFE
+    77D22FFFE01AAAAAAAA
+- expected_values:
     CUPRA_FR_VSS: 12.6
     CUPRA_FR_VSS_V2: 12.6
   response: |-
@@ -12,13 +26,6 @@ test_cases:
     CUPRA_FR_VSS_V2: 47.9
   response: |-
     77D101062180101DF20
-    77D21000780FFFFFFFF
-    77D22FFFF01AAAAAAAA
-- expected_values:
-    CUPRA_FR_VSS: 565.5
-    CUPRA_FR_VSS_V2: 565.5
-  response: |-
-    77D1010621801161720
     77D21000780FFFFFFFF
     77D22FFFF01AAAAAAAA
 - expected_values:
