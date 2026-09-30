@@ -8,6 +8,13 @@ test_cases:
     77D21FFFF00FFFEFFFE
     77D22FFFE01AAAAAAAA
 - expected_values:
+    CUPRA_RR_VSS: 15.8
+    CUPRA_RR_VSS_V2: 15.8
+  response: |-
+    77D1010621803009E20
+    77D21000580FFFEFFFE
+    77D22FFFE01AAAAAAAA
+- expected_values:
     CUPRA_RR_VSS: 25.5
     CUPRA_RR_VSS_V2: 25.5
   response: |-
