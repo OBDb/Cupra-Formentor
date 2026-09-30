@@ -36,6 +36,13 @@ test_cases:
     77D2100078008220A1F
     77D22093401AAAAAAAA
 - expected_values:
+    CUPRA_FR_VSS: 365.7
+    CUPRA_FR_VSS_V2: 365.7
+  response: |-
+    77D10106218010E4920
+    77D2100078006F908D9
+    77D22080F01AAAAAAAA
+- expected_values:
     CUPRA_FR_VSS: 1097.6
     CUPRA_FR_VSS_V2: 1097.6
   response: |-
