@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.223887
+test_cases:
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO_2: null
+  response: 7E907623887FFFFFFFF
