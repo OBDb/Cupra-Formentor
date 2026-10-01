@@ -1,7 +1,5 @@
 command_id: 746.7B0.2226ED|fc=1
 test_cases:
 - expected_values:
-    CUPRA_AIR_POLLUTION: 0.2
-    CUPRA_CLIMATE_AIR_POLUTION_LVL: 0.2
-    CUPRA_PQ35_AIR_QUAL: 0.2
+    FORMENTOR_CLIMATE_AIR_POLUTION_LVL: 0.2
   response: 7B0046226ED02

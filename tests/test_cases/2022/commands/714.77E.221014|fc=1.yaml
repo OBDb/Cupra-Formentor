@@ -1,10 +1,8 @@
 command_id: 714.77E.221014|fc=1
 test_cases:
 - expected_values:
-    CUPRA_AAT: 51
-    CUPRA_DASH_AMBIENT_AIR_T: 0.5
+    FORMENTOR_DASH_AMBIENT_AIR_T: 0.5
   response: '77E0462101465'
 - expected_values:
-    CUPRA_AAT: 120
-    CUPRA_DASH_AMBIENT_AIR_T: 35
+    FORMENTOR_DASH_AMBIENT_AIR_T: 35
   response: 77E04621014AA
