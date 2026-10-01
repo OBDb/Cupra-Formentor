@@ -1,0 +1,14 @@
+command_id: 7E1.7E9.22101A
+test_cases:
+- expected_values:
+    FORMENTOR_PQ35_ODO_3: 12288
+  response: 7E90762101A00300000
+- expected_values:
+    FORMENTOR_PQ35_ODO_3: 11093504
+  response: 7E90762101AA9460000
+- expected_values:
+    FORMENTOR_PQ35_ODO_3: 16592640
+  response: 7E90762101AFD2F0000
+- expected_values:
+    FORMENTOR_PQ35_ODO_3: 16723712
+  response: 7E90762101AFF2F0000

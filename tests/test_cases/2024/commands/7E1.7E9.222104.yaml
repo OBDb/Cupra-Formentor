@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.222104
+test_cases:
+- expected_values:
+    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -26
+  response: 7E9056221040E00
+- expected_values:
+    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 40
+  response: '7E9056221045000'

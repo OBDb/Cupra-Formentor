@@ -1,17 +1,17 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RANGE: 198
+    FORMENTOR_RANGE_V2: 198
   response: |-
     77A100A622AB600C600
     77A2164006200AAAAAA
 - expected_values:
-    CUPRA_RANGE: 199
+    FORMENTOR_RANGE_V2: 199
   response: |-
     77A100A622AB600C700
     77A2164006300AAAAAA
 - expected_values:
-    CUPRA_RANGE: 207
+    FORMENTOR_RANGE_V2: 207
   response: |-
     77A100A622AB600CF00
     77A2164006B00AAAAAA
