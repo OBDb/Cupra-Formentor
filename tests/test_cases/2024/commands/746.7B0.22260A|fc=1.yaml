@@ -1,14 +1,11 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
-    CUPRA_AAT_CABIN: 8
-    CUPRA_OUTSIDE_T_SYSTEM: 58
+    FORMENTOR_OUTSIDE_T_SYSTEM: 58
   response: 7B00462260A74
 - expected_values:
-    CUPRA_AAT_CABIN: 8.5
-    CUPRA_OUTSIDE_T_SYSTEM: 58.5
+    FORMENTOR_OUTSIDE_T_SYSTEM: 58.5
   response: 7B00462260A75
 - expected_values:
-    CUPRA_AAT_CABIN: 21
-    CUPRA_OUTSIDE_T_SYSTEM: -57
+    FORMENTOR_OUTSIDE_T_SYSTEM: -57
   response: 7B00462260A8E

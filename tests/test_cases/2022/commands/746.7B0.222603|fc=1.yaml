@@ -1,8 +1,8 @@
 command_id: 746.7B0.222603|fc=1
 test_cases:
 - expected_values:
-    CUPRA_A_C_CMPR_SPEED: 0
+    FORMENTOR_CLIMATE_A_C_COMP_SPD: 0
   response: 7B00462260300
 - expected_values:
-    CUPRA_A_C_CMPR_SPEED: 8200
+    FORMENTOR_CLIMATE_A_C_COMP_SPD: 8200
   response: 7B00462260352

@@ -1,10 +1,8 @@
 command_id: 7E5.7ED.221E3D
 test_cases:
 - expected_values:
-    CUPRA_HVBAT_CURRENT: -200
-    CUPRA_HVBAT_I: -200
+    FORMENTOR_HVBAT_I: 144905
   response: 7ED07621E3D00023609
 - expected_values:
-    CUPRA_HVBAT_CURRENT: -200
-    CUPRA_HVBAT_I: -200
+    FORMENTOR_HVBAT_I: 145550
   response: 7ED07621E3D0002388E

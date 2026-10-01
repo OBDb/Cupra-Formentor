@@ -1,0 +1,17 @@
+command_id: 7E1.7E9.223841
+test_cases:
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO: 6566732.8
+  response: 7E90762384103EA0100
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO: 90171033.6
+  response: 7E90762384135BF0200
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO: 96455936
+  response: 7E907623841397E0200
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO: 176114918.4
+  response: 7E90762384168F90100
+- expected_values:
+    FORMENTOR_MQB_TCM_ODO: 417601971.2
+  response: 7E907623841F8E90100

@@ -1,8 +1,8 @@
 command_id: FC00.FE0076.222969|fc=1,c=17
 test_cases:
 - expected_values:
-    CUPRA_MISFIRES_C2_V2: 33
+    FORMENTOR_MISFIRES_C2_V2: 33
   response: 17FE0076056229690021
 - expected_values:
-    CUPRA_MISFIRES_C2_V2: 47
+    FORMENTOR_MISFIRES_C2_V2: 47
   response: 17FE007605622969002F

@@ -1,5 +1,5 @@
 command_id: 746.7B0.222621|fc=1
 test_cases:
 - expected_values:
-    CUPRA_RECIRC_STOP_RECIRC: 858
+    FORMENTOR_MQB_RECIRC_FLAP_THR: 858
   response: 7B005622621035A

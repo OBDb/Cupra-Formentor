@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.222A0B|ta=7B,c=17
 test_cases:
 - expected_values:
-    CUPRA_BATTERY_T: 18
+    FORMENTOR_BATTERY_T: 18
   response: 17FE007B04622A0B74
 - expected_values:
-    CUPRA_BATTERY_T: 28.5
+    FORMENTOR_BATTERY_T: 28.5
   response: 17FE007B04622A0B89

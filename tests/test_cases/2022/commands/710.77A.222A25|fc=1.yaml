@@ -1,11 +1,11 @@
 command_id: 710.77A.222A25|fc=1
 test_cases:
 - expected_values:
-    CUPRA_BAT_R_RAW: 0
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 0
   response: 77A04622A2500
 - expected_values:
-    CUPRA_BAT_R_RAW: 5
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 5
   response: 77A04622A2519
 - expected_values:
-    CUPRA_BAT_R_RAW: 8.4
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 8.4
   response: 77A04622A252A
