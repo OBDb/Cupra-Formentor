@@ -29,7 +29,7 @@ test_cases:
     FORMENTOR_RANGE_V2: 255
   response: |-
     77A100A622AB600FF00
-    77A21E6001900AAAAAA
+    77A21DC002300AAAAAA
 - expected_values:
     FORMENTOR_RANGE_V2: 256
   response: |-
