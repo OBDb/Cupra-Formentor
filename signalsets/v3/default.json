@@ -65,7 +65,7 @@
   "signals": [
     {"id": "FORMENTOR_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "FORMENTOR_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
@@ -160,7 +160,7 @@
     {"id": "FORMENTOR_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "FORMENTOR_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "dbgfilter": { "to": 2024, "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1810"}, "freq": 2, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
@@ -208,7 +208,7 @@
   "signals": [
     {"id": "FORMENTOR_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "0800"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "0800"}, "freq": 5, "filter": { "from": 2024 }, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AC_CMPR_PWR_ACT", "path": "Climate", "fmt": {"bix": 40, "len": 16, "max": 65535, "unit": "watts" }, "name": "A/C compressor power, actual"}
   ]},

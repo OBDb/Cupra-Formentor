@@ -1,4 +1,4 @@
-command_id: 746.7B0.220800|fc=1
+command_id: 746.7B0.220800|fc=1,f=2024-
 test_cases:
 - expected_values:
     FORMENTOR_AC_CMPR_PWR_ACT: 0

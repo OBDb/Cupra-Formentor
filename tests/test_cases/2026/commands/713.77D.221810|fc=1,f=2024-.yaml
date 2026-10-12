@@ -1,4 +1,4 @@
-command_id: 713.77D.221810|fc=1
+command_id: 713.77D.221810|fc=1,f=2024-
 test_cases:
 - expected_values:
     FORMENTOR_HYD_BRAKE_BOOST_ACTIVE: 0
