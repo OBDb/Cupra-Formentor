@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     FORMENTOR_PQ35_ODO: 27137
   response: 77E06622203006A01
+- expected_values:
+    FORMENTOR_PQ35_ODO: 28674
+  response: '77E06622203007002'
