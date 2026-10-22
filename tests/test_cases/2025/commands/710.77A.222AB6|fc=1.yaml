@@ -1,10 +1,10 @@
 command_id: 710.77A.222AB6|fc=1
 test_cases:
 - expected_values:
-    FORMENTOR_RANGE_V2: 65
+    FORMENTOR_RANGE_V2: 30
   response: |-
-    77A100A622AB6004100
-    77A2141000000AAAAAA
+    77A100A622AB6001E00
+    77A211E000000AAAAAA
 - expected_values:
     FORMENTOR_RANGE_V2: 80
   response: |-
