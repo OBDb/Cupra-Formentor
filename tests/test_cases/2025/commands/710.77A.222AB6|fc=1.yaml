@@ -6,6 +6,11 @@ test_cases:
     77A100A622AB6001E00
     77A211E000000AAAAAA
 - expected_values:
+    FORMENTOR_RANGE_V2: 68
+  response: |-
+    77A100A622AB6004400
+    77A210F003500AAAAAA
+- expected_values:
     FORMENTOR_RANGE_V2: 80
   response: |-
     77A100A622AB6005000
@@ -15,11 +20,6 @@ test_cases:
   response: |-
     77A100A622AB6005D00
     77A211E003F00AAAAAA
-- expected_values:
-    FORMENTOR_RANGE_V2: 95
-  response: |-
-    77A100A622AB6005F00
-    77A215F000000AAAAAA
 - expected_values:
     FORMENTOR_RANGE_V2: 240
   response: |-
@@ -35,11 +35,6 @@ test_cases:
   response: |-
     77A100A622AB6010000
     77A21B4004C00AAAAAA
-- expected_values:
-    FORMENTOR_RANGE_V2: 260
-  response: |-
-    77A100A622AB6010401
-    77A2104000000AAAAAA
 - expected_values:
     FORMENTOR_RANGE_V2: 436
   response: |-
