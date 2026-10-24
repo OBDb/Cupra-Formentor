@@ -860,7 +860,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E3C"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "FORMENTOR_HVBAT_V_CELLS_SUM", "path": "Battery", "fmt": { "len": 32, "max": 524287.99, "min": -524288, "mul": 244140625, "div": 1000000000, "sign": true, "unit": "volts" }, "name": "Battery voltage, sum of all cells"}
+    {"id": "FORMENTOR_HVBAT_V_CELLS_SUM", "path": "Battery", "fmt": { "len": 32, "max": 524287.99, "min": -524288, "div": 4096, "sign": true, "unit": "volts" }, "name": "Battery voltage, sum of all cells"}
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "1E3E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
