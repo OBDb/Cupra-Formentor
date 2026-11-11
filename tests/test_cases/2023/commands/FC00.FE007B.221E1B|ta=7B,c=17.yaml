@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E1B|ta=7B,c=17
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_CHG: 35
+  response: 17FE007B05621E1B00AF
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_CHG: 50.8
+  response: 17FE007B05621E1B00FE
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_CHG: 55.6
+  response: 17FE007B05621E1B0116

@@ -1,0 +1,11 @@
+command_id: 7E5.7ED.221E3B|din=03
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_V: 377
+  response: 7ED05621E3B05E4
+- expected_values:
+    FORMENTOR_HVBAT_V: 383.25
+  response: 7ED05621E3B05FD
+- expected_values:
+    FORMENTOR_HVBAT_V: 388.25
+  response: 7ED05621E3B0611

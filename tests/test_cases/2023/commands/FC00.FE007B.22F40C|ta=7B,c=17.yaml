@@ -1,0 +1,17 @@
+command_id: FC00.FE007B.22F40C|ta=7B,c=17
+test_cases:
+- expected_values:
+    FORMENTOR_ELDRIVE_MOTOR_RPM: 0
+  response: 17FE007B0562F40C0000
+- expected_values:
+    FORMENTOR_ELDRIVE_MOTOR_RPM: 1482
+  response: 17FE007B0562F40C1728
+- expected_values:
+    FORMENTOR_ELDRIVE_MOTOR_RPM: 1611.5
+  response: 17FE007B0562F40C192E
+- expected_values:
+    FORMENTOR_ELDRIVE_MOTOR_RPM: 1779
+  response: 17FE007B0562F40C1BCC
+- expected_values:
+    FORMENTOR_ELDRIVE_MOTOR_RPM: 2425.5
+  response: 17FE007B0562F40C25E6

@@ -1,0 +1,23 @@
+command_id: 714.77E.222203
+test_cases:
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50445
+  response: 77E0662220300C50D
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50446
+  response: 77E0662220300C50E
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50447
+  response: 77E0662220300C50F
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50448
+  response: 77E0662220300C510
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50449
+  response: 77E0662220300C511
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50450
+  response: 77E0662220300C512
+- expected_values:
+    FORMENTOR_PQ35_ODO: 50451
+  response: 77E0662220300C513
