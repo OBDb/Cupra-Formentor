@@ -4,23 +4,5 @@ test_cases:
     FORMENTOR_PQ35_ODO_3: 50445
   response: 7E90762101A0DC50000
 - expected_values:
-    FORMENTOR_PQ35_ODO_3: 50446
-  response: 7E90762101A0EC50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50447
-  response: 7E90762101A0FC50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50448
-  response: 7E90762101A10C50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50449
-  response: 7E90762101A11C50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50450
-  response: 7E90762101A12C50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50451
-  response: 7E90762101A13C50000
-- expected_values:
-    FORMENTOR_PQ35_ODO_3: 50452
-  response: 7E90762101A14C50000
+    FORMENTOR_PQ35_ODO_3: 50492
+  response: 7E90762101A3CC50000

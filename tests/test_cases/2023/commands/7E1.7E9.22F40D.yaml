@@ -4,8 +4,8 @@ test_cases:
     FORMENTOR_VSS_7E1: 0
   response: 7E90562F40D0000
 - expected_values:
-    FORMENTOR_VSS_7E1: 90
-  response: 7E90562F40D5A19
+    FORMENTOR_VSS_7E1: 206
+  response: 7E90562F40DCE27
 - expected_values:
-    FORMENTOR_VSS_7E1: 238
-  response: 7E90562F40DEE11
+    FORMENTOR_VSS_7E1: 252
+  response: 7E90562F40DFC08

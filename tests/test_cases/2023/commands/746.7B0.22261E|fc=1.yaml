@@ -1,5 +1,8 @@
 command_id: 746.7B0.22261E|fc=1
 test_cases:
 - expected_values:
+    FORMENTOR_MQB_RECIRC_FLAP_ACT: 157
+  response: 7B00662261E009D84
+- expected_values:
     FORMENTOR_MQB_RECIRC_FLAP_ACT: 160
   response: 7B00662261E00A088

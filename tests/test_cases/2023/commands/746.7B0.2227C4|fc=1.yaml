@@ -1,6 +1,12 @@
 command_id: 746.7B0.2227C4|fc=1
 test_cases:
 - expected_values:
+    FORMENTOR_CABIN_HUMIDITY: 59
+    FORMENTOR_WINDSHIELD_T: 26.864
+  response: |-
+    7B010086227C4722161
+    7B021A876AAAAAAAAAA
+- expected_values:
     FORMENTOR_CABIN_HUMIDITY: 45
     FORMENTOR_WINDSHIELD_T: 29.744
   response: |-

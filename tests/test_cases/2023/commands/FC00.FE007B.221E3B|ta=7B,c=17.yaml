@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.221E3B|ta=7B,c=17
 test_cases:
 - expected_values:
-    FORMENTOR_DC_BATTERY_V: 376.25
-  response: 17FE007B05621E3B05E1
+    FORMENTOR_DC_BATTERY_V: 352
+  response: 17FE007B05621E3B0580
 - expected_values:
     FORMENTOR_DC_BATTERY_V: 381.75
   response: 17FE007B05621E3B05F7

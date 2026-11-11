@@ -1,5 +1,8 @@
 command_id: 746.7B0.22260A|fc=1
 test_cases:
 - expected_values:
+    FORMENTOR_OUTSIDE_T_SYSTEM: 61
+  response: 7B00462260A7A
+- expected_values:
     FORMENTOR_OUTSIDE_T_SYSTEM: -58
   response: 7B00462260A8C

@@ -3,4 +3,8 @@ test_cases:
 - expected_values:
     FORMENTOR_HDC_ACTIVE: 0
     FORMENTOR_HDC_INCLINE: 0
+  response: 77D056218080000
+- expected_values:
+    FORMENTOR_HDC_ACTIVE: 0
+    FORMENTOR_HDC_INCLINE: 0
   response: 77D056218084000

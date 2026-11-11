@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     FORMENTOR_BAT_INT_R: 0.4
   response: 77A04622A0E02
+- expected_values:
+    FORMENTOR_BAT_INT_R: 8.4
+  response: 77A04622A0E2A

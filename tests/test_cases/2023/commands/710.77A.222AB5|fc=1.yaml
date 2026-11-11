@@ -5,3 +5,8 @@ test_cases:
   response: |-
     77A100D622AB501D001
     77A21D0000007FF0000
+- expected_values:
+    FORMENTOR_RANGE_EST_CAN: 47
+  response: |-
+    77A100D622AB5024B02
+    77A211C002F07FF0000
