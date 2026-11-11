@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     FORMENTOR_BAT_INTERNAL_RES_RAW: 14.2
   response: 77A04622A2547
+- expected_values:
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 29.6
+  response: 77A04622A2594

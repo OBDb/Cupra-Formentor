@@ -4,20 +4,5 @@ test_cases:
     FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -19
   response: '7E9056221041500'
 - expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -18
-  response: '7E9056221041600'
-- expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -17
-  response: '7E9056221041700'
-- expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -16
-  response: '7E9056221041800'
-- expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -15
-  response: '7E9056221041900'
-- expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -14
-  response: 7E9056221041A00
-- expected_values:
-    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: -13
-  response: 7E9056221041B00
+    FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC: 24
+  response: '7E9056221044000'

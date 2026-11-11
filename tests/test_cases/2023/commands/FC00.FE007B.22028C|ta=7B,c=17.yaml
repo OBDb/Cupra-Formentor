@@ -1,8 +1,8 @@
 command_id: FC00.FE007B.22028C|ta=7B,c=17
 test_cases:
 - expected_values:
-    FORMENTOR_SOC: 84.8
-  response: 17FE007B0462028CD4
+    FORMENTOR_SOC: 59.6
+  response: 17FE007B0462028C95
 - expected_values:
     FORMENTOR_SOC: 92.8
   response: 17FE007B0462028CE8

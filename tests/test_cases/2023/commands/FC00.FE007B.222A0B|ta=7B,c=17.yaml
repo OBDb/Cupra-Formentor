@@ -9,3 +9,18 @@ test_cases:
 - expected_values:
     FORMENTOR_BATTERY_T: 20.5
   response: 17FE007B04622A0B79
+- expected_values:
+    FORMENTOR_BATTERY_T: 21
+  response: 17FE007B04622A0B7A
+- expected_values:
+    FORMENTOR_BATTERY_T: 21.5
+  response: 17FE007B04622A0B7B
+- expected_values:
+    FORMENTOR_BATTERY_T: 22
+  response: 17FE007B04622A0B7C
+- expected_values:
+    FORMENTOR_BATTERY_T: 22.5
+  response: 17FE007B04622A0B7D
+- expected_values:
+    FORMENTOR_BATTERY_T: 23
+  response: 17FE007B04622A0B7E

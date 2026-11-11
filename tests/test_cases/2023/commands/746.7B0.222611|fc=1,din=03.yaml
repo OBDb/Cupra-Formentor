@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     FORMENTOR_CLIMATE_LEG_DEFL_T: 40.66667
   response: 7B0046226117A
+- expected_values:
+    FORMENTOR_CLIMATE_LEG_DEFL_T: 52.66667
+  response: 7B0046226119E
