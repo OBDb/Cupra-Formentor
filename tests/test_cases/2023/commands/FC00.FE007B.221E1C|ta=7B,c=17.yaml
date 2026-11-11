@@ -1,0 +1,29 @@
+command_id: FC00.FE007B.221E1C|ta=7B,c=17
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 321.8
+  response: 17FE007B05621E1C0649
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 322
+  response: 17FE007B05621E1C064A
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 322.2
+  response: 17FE007B05621E1C064B
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 322.6
+  response: 17FE007B05621E1C064D
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 323.2
+  response: 17FE007B05621E1C0650
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 323.6
+  response: 17FE007B05621E1C0652
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 324.2
+  response: 17FE007B05621E1C0655
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 325
+  response: 17FE007B05621E1C0659
+- expected_values:
+    FORMENTOR_HVBAT_I_LIM_DSCH: 325.2
+  response: 17FE007B05621E1C065A

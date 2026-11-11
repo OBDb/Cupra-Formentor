@@ -1,0 +1,14 @@
+command_id: 710.77A.222A25|fc=1,f=-2023
+test_cases:
+- expected_values:
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 0.4
+  response: 77A04622A2502
+- expected_values:
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 8.2
+  response: 77A04622A2529
+- expected_values:
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 8.4
+  response: 77A04622A252A
+- expected_values:
+    FORMENTOR_BAT_INTERNAL_RES_RAW: 14.2
+  response: 77A04622A2547

@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.220301
+test_cases:
+- expected_values:
+    FORMENTOR_CTRL_MODULE_T: 211
+  response: 7E905620301FB04

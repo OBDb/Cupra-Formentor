@@ -1,0 +1,17 @@
+command_id: 714.77E.22220C|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_OUTSIDE_T: 11
+  response: 77E0462220C7A
+- expected_values:
+    FORMENTOR_OUTSIDE_T: 12
+  response: 77E0462220C7C
+- expected_values:
+    FORMENTOR_OUTSIDE_T: 13
+  response: 77E0462220C7E
+- expected_values:
+    FORMENTOR_OUTSIDE_T: 14
+  response: 77E0462220C80
+- expected_values:
+    FORMENTOR_OUTSIDE_T: 15
+  response: 77E0462220C82

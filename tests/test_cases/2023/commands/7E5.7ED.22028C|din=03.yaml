@@ -1,0 +1,8 @@
+command_id: 7E5.7ED.22028C|din=03
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_SOC_V2: 83.13725
+  response: 7ED0462028CD4
+- expected_values:
+    FORMENTOR_HVBAT_SOC_V2: 91.37255
+  response: 7ED0462028CE9

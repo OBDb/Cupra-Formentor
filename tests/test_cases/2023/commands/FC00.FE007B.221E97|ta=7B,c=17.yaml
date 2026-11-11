@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.221E97|ta=7B,c=17
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_CELL_V_088: 3.931
+  response: 17FE007B05621E970B73
+- expected_values:
+    FORMENTOR_HVBAT_CELL_V_088: 4.052
+  response: 17FE007B05621E970BEC

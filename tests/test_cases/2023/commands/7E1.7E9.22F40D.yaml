@@ -1,0 +1,11 @@
+command_id: 7E1.7E9.22F40D
+test_cases:
+- expected_values:
+    FORMENTOR_VSS_7E1: 0
+  response: 7E90562F40D0000
+- expected_values:
+    FORMENTOR_VSS_7E1: 90
+  response: 7E90562F40D5A19
+- expected_values:
+    FORMENTOR_VSS_7E1: 238
+  response: 7E90562F40DEE11
