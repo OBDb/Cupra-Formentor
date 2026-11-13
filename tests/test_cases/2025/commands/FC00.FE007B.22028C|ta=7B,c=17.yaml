@@ -4,5 +4,5 @@ test_cases:
     FORMENTOR_SOC: 16.4
   response: 17FE007B0462028C29
 - expected_values:
-    FORMENTOR_SOC: 95.6
-  response: 17FE007B0462028CEF
+    FORMENTOR_SOC: 96
+  response: 17FE007B0462028CF0
