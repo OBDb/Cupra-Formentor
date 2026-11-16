@@ -1,0 +1,7 @@
+command_id: 710.77A.222AB5|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_RANGE_EST_CAN: 0
+  response: |-
+    77A100D622AB5028F02
+    77A218F000007FF0000

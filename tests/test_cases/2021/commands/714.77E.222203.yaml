@@ -1,0 +1,5 @@
+command_id: 714.77E.222203
+test_cases:
+- expected_values:
+    FORMENTOR_PQ35_ODO: 40052
+  response: 77E06622203009C74
