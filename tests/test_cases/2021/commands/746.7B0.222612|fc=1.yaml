@@ -1,0 +1,8 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_CLIMATE_T_AFTER_EVAP: 0.33333
+  response: 7B005622612019A
+- expected_values:
+    FORMENTOR_CLIMATE_T_AFTER_EVAP: 0.33333
+  response: 7B00562261201B8

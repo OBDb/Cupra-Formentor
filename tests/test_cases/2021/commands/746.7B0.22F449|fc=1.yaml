@@ -1,0 +1,8 @@
+command_id: 746.7B0.22F449|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_APP_D: 39.21569
+  response: 7B00462F44964
+- expected_values:
+    FORMENTOR_APP_D: 46.27451
+  response: 7B00462F44976

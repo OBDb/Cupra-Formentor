@@ -1,0 +1,7 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_HVBAT_E_CONTENT: 0
+  response: |-
+    77A100B622AB801D100
+    77A210000000000AAAA

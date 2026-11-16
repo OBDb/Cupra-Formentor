@@ -42,7 +42,7 @@
   "signals": [
     {"id": "FORMENTOR_PQ35_HAL_DUTY", "path": "Drivetrain", "fmt": { "len": 8, "max": 100, "mul": 100.39, "div": 255, "unit": "percent" }, "name": "All-wheel drive duty cycle"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "15D1"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "15D1"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_EM_PWR_LIM",            "path": "Engine",  "fmt": {"bix": 8,  "len": 16, "max": 3276750, "mul": 50,              "unit": "watts"         }, "name": "Electric motor power limitation"},
     {"id": "FORMENTOR_EM_NV_PWR_LIM",         "path": "Engine",  "fmt": {"bix": 24, "len": 8,  "max": 12750,   "mul": 50,              "unit": "watts"         }, "name": "Electric motor non-vehicle power limitation"},
@@ -57,7 +57,7 @@
   "signals": [
     {"id": "FORMENTOR_BAT_COND_DISPLAY", "path": "Battery", "fmt": { "len": 8, "max": 2550, "mul": 10, "unit": "percent" }, "name": "Battery condition for display"}
   ]},
-{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "710", "rax": "77A", "cmd": {"22": "2A0E"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_BAT_INT_R", "path": "Battery", "fmt": { "len": 8, "max": 51, "mul": 20, "div": 100, "unit": "unknown" }, "name": "Battery internal resistance"}
   ]},
@@ -65,34 +65,34 @@
   "signals": [
     {"id": "FORMENTOR_BAT_ACID", "path": "Battery", "fmt": { "len": 8, "max": 2559, "mul": 10, "add": 9, "unit": "percent" }, "name": "Battery acid stratification"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2021 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A25"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2020 },
   "signals": [
     {"id": "FORMENTOR_BAT_INTERNAL_RES_RAW", "path": "Battery", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "unknown" }, "name": "Battery internal resistance, raw"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A53"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2A53"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_DCDC_V_LOW", "path": "Battery", "fmt": {           "len": 8,  "max": 25.5,               "div": 10,              "unit": "volts" }, "name": "DC-DC converter, low voltage"},
     {"id": "FORMENTOR_DCDC_I",     "path": "Battery", "fmt": {"bix": 8,  "len": 16, "max": 65024, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter, current"},
     {"id": "FORMENTOR_DCDC_I_RSV", "path": "Battery", "fmt": {"bix": 24, "len": 16, "max": 65024, "min": -511,            "add": -511, "unit": "amps"  }, "name": "DC-DC converter, reserved current"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB2"}, "freq": 86400, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB2"}, "freq": 86400, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_HVBAT_CAP", "path": "Battery", "fmt": { "len": 16, "max": 3276750, "mul": 50, "unit": "watts" }, "name": "HV battery capacity", "description": "Total possible energy in the high voltage battery"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB4"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_RANGE_EST_INT",      "path": "Battery.Internal", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated electric power reserve"},
     {"id": "FORMENTOR_HVBAT_CSMP_AVG_INT", "path": "Battery.Internal", "fmt": {"bix": 72, "len": 8,  "max": 255,   "unit": "amps"       }, "name": "Average battery consumption"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB5"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB5"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_RANGE_EST_CAN", "path": "Battery", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Estimated reserve range"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB6"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_RANGE_V2", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "miles" }, "name": "Range remaining", "suggestedMetric": "electricRange"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB7"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AVG_CSMP_CAT0", "path": "Trips", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 0"},
     {"id": "FORMENTOR_AVG_CSMP_CAT1", "path": "Trips", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 1"},
@@ -102,11 +102,11 @@
     {"id": "FORMENTOR_AVG_CSMP_CAT5", "path": "Trips", "fmt": {"bix": 80, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 5"},
     {"id": "FORMENTOR_AVG_CSMP_CAT6", "path": "Trips", "fmt": {"bix": 96, "len": 16, "max": 6553, "div": 10, "unit": "kilowattHours" }, "name": "Average consumption, category 6"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB8"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AB8"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_HVBAT_E_CONTENT", "path": "Battery", "fmt": {"bix": 16, "len": 16, "max": 1638.37, "mul": 25, "div": 1000, "unit": "kilowattHours" }, "name": "HV battery energy content", "description": "Energy stored in the high voltage battery"}
   ]},
-{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AF7"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "2AF7"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AUX_BAT_V",        "path": "Battery", "fmt": {            "len": 16, "max": 69,                        "div": 1000, "add": 4,                 "unit": "volts"       }, "name": "12V battery voltage",            "suggestedMetric": "starterBatteryVoltage"},
     {"id": "FORMENTOR_AUX_BAT_C",        "path": "Battery", "fmt": {"bix": 16,  "len": 32, "max": 1000000,  "min": -1000000, "div": 1000,             "sign": true, "unit": "amps"        }, "name": "12V battery current"},
@@ -119,11 +119,11 @@
     {"id": "FORMENTOR_AUX_BAT_AGE_POW",  "path": "Battery", "fmt": {"bix": 168, "len": 8,  "max": 100,                                                              "unit": "percent"     }, "name": "12V battery aging by power"},
     {"id": "FORMENTOR_AUX_BAT_CAP",      "path": "Battery", "fmt": {"bix": 176, "len": 8,  "max": 100,                                                              "unit": "ampereHours" }, "name": "12V battery adapted capacity"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1805"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_STEER_WHL_TQ_SENS_1", "path": "Tires", "fmt": { "len": 16, "max": 144.0709, "min": -143.9553, "mul": 0.004395, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel torque sensor 1"}
   ]},
-{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "712", "rax": "77C", "fcm1": true, "cmd": {"22": "1812"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_SWA", "path": "Tires", "fmt": { "len": 16, "max": 4095.935, "min": -4095.94, "div": 8, "add": 0.06, "sign": true, "unit": "degrees" }, "name": "Steering wheel angle"}
   ]},
@@ -134,28 +134,28 @@
     {"id": "FORMENTOR_RL_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "FORMENTOR_RR_WHL_SPD_713", "path": "Tires", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1800"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORMENTOR_FL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1801"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORMENTOR_FR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1802"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORMENTOR_RL_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 0.25, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1803"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORMENTOR_RR_VSS_V2", "path": "Movement", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "1808"}, "freq": 2, "dbgfilter": { "to": 2020, "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_HDC_ACTIVE",  "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1,   "unit": "offon"   }, "name": "Hill descent control"},
     {"id": "FORMENTOR_HDC_INCLINE", "path": "Engine", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "percent" }, "name": "Hill descent control, incline"}
   ]},
-{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "713", "rax": "77D", "fcm1": true, "cmd": {"22": "180A"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_HAL_CLUTCH_OPEN",  "path": "Transmission", "fmt": {"bix": 2,  "len": 1, "max": 1,           "unit": "offon" }, "name": "All-wheel drive clutch fully open"},
     {"id": "FORMENTOR_MQB_HAL_CLUTCH_BLOCK", "path": "Transmission", "fmt": {"bix": 15, "len": 1, "max": 1, "mul": 8, "unit": "offon" }, "name": "All-wheel drive clutch blockage degree"}
@@ -164,23 +164,23 @@
   "signals": [
     {"id": "FORMENTOR_HYD_BRAKE_BOOST_ACTIVE", "path": "Control", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Hydraulic brake booster: active"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "1014"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_DASH_AMBIENT_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Ambient air temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2021, "years": [2024], "from": 2026 },
+{ "hdr": "714", "rax": "77E", "cmd": {"22": "2203"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
   "signals": [
     {"id": "FORMENTOR_PQ35_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "220C"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_OUTSIDE_T", "path": "Engine", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "2211"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_PQ35_CHG_AIR_P", "path": "Battery", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Charge air pressure"}
   ]},
-{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "714", "rax": "77E", "din": "03", "cmd": {"22": "224B"}, "freq": 300, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_DASH_OIL_THERMAL_WEAR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Oil thermal wear"}
   ]},
@@ -188,27 +188,27 @@
   "signals": [
     {"id": "FORMENTOR_DTE", "path": "Trips", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance to empty", "suggestedMetric": "fuelRange"}
   ]},
-{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2021, "years": [2024], "from": 2027 },
+{ "hdr": "714", "rax": "77E", "fcm1": true, "cmd": {"22": "22B8"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_ODO_MILEAGE_HR", "path": "Trips", "fmt": { "len": 32, "max": 4294967, "div": 1000, "unit": "kilometers" }, "name": "Odometer, mileage, HR", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2353"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CRASH_FRONT", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, front"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2354"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CRASH_DRVR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, driver side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2355"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CRASH_PASS", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, passenger side"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2356"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CRASH_REAR", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Crashes, rear"}
   ]},
-{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "715", "rax": "77F", "fcm1": true, "cmd": {"22": "2357"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_ROLLOVER", "path": "Stats", "fmt": { "len": 8, "max": 100, "unit": "scalar" }, "name": "Rollovers"}
   ]},
@@ -216,110 +216,110 @@
   "signals": [
     {"id": "FORMENTOR_AC_CMPR_PWR_ACT", "path": "Climate", "fmt": {"bix": 40, "len": 16, "max": 65535, "unit": "watts" }, "name": "A/C compressor power, actual"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_A_C_COMP_SPD", "path": "Movement", "fmt": { "len": 8, "max": 25500, "mul": 100, "unit": "rpm" }, "name": "A/C compressor speed"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2604"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_A_C_COMP_LOAD", "path": "Engine", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "newtonMeters" }, "name": "A/C compressor load"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_REFRIG_P", "path": "Engine", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 2, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_RAD_FAN_ACT_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Radiator fan actual duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2607"}, "freq": 2, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_RAD_FAN_CMD_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "div": 2.5, "unit": "percent" }, "name": "Radiator fan commanded duty"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2609"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AAT", "path": "Climate", "fmt": { "len": 8, "max": 77.5, "min": -50, "div": 2, "add": -50, "unit": "celsius" }, "name": "Outside temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260A"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_OUTSIDE_T_SYSTEM", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "sign": true, "unit": "celsius" }, "name": "Outside temperature, system calculated"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260C"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_FR_L_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Front left deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "260D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_FR_R_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Front right deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "2611"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_LEG_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Leg deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2612"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_T_AFTER_EVAP", "path": "Engine", "fmt": { "len": 8, "max": 42.291, "min": -42.624, "div": 3, "sign": true, "unit": "celsius" }, "name": "Temperature after evaporator"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2613"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CABIN_T", "path": "Engine", "fmt": { "len": 16, "max": 3276.7, "min": -3276.8, "div": 10, "sign": true, "unit": "celsius" }, "name": "Cabin temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261E"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_RECIRC_FLAP_ACT", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap actual position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "261F"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_RECIRC_FLAP_TRG", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap target position"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2620"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_RECIRC_FLAP_FRESH_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap fresh air threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2621"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_MQB_RECIRC_FLAP_THR", "path": "Climate", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Recirculation flap threshold"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2622"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_FR_L_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front left temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2626"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_FR_R_T_FLP_ACT_VALUE", "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Front right temperature flap actual value"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "263D"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_RR_DEFL_T", "path": "Engine", "fmt": { "len": 8, "max": 84.915, "div": 3, "unit": "celsius" }, "name": "Rear deflector temperature"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "26ED"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_AIR_POLUTION_LVL", "path": "Engine", "fmt": { "len": 8, "max": 12.7, "min": -12.8, "div": 10, "sign": true, "unit": "scalar" }, "name": "Air pollution level"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "27C4"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_WINDSHIELD_T",   "path": "Climate", "fmt": {           "len": 8, "max": 108.08, "min": -38.8, "mul": 0.576,           "add": -38.8, "unit": "celsius" }, "name": "Windshield temperature"},
     {"id": "FORMENTOR_CABIN_HUMIDITY", "path": "Climate", "fmt": {"bix": 32, "len": 8, "max": 100,                                "div": 2,               "unit": "percent" }, "name": "Cabin humidity"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "42DB"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "42DB"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_CABIN_CO2", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 25500, "mul": 100, "unit": "scalar" }, "name": "CO2 content interior"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "482B"}, "freq": 2, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "din": "03", "cmd": {"22": "482B"}, "freq": 2, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AC_REFRIG_P_SENS1",     "path": "Climate", "fmt": {           "len": 16, "max": 576.708,             "mul": 88, "div": 10000,             "nullmax": 36.0272, "unit": "bars"    }, "name": "A/C refrigerant pressure, sensor 1"},
     {"id": "FORMENTOR_AC_REFRIG_T_SENS1",     "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 369.4,   "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 369.4,   "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1"},
     {"id": "FORMENTOR_AC_REFRIG_T_SENS1_INT", "path": "Climate", "fmt": {"bix": 32, "len": 16, "max": 369.4,   "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 369.4,   "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1 interior"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "F449"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2025 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "F449"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_APP_D", "path": "Control", "fmt": { "len": 8, "max": 100, "div": 2.55, "unit": "percent" }, "name": "Absolute pedal position, drive"}
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "0838"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_ECALL_SOC", "path": "Battery", "fmt": {"bix": 8, "len": 8, "max": 100, "unit": "percent" }, "name": "ECall battery charge level"},
     {"id": "FORMENTOR_ECALL_STATUS", "path": "Battery", "name": "ECall battery status", "fmt": {"len": 8, "map": {
@@ -328,32 +328,32 @@
         }}
     }
   ]},
-{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2027 },
+{ "hdr": "767", "rax": "7D1", "fcm1": true, "cmd": {"22": "2431"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_GPS_SATS_VISIBLE", "path": "GPS", "fmt": {          "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, visible"},
     {"id": "FORMENTOR_GPS_SATS_TRACKED", "path": "GPS", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "scalar" }, "name": "Satellites, tracked"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "0301"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_CTRL_MODULE_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Control module temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1001"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_TIRE_FR_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1004"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_TIRE_RL_SPD_V3", "path": "Movement", "fmt": { "len": 16, "max": 255, "div": 10, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1005"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_VSS_ESP", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "kilometersPerHour" }, "name": "Vehicle speed ESP"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1011"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_ADAPTIVE_MODE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Adaptive mode"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1012"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_ID_CURRENT_DRIVING", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "ID of current driving program"}
   ]},
@@ -361,11 +361,11 @@
   "signals": [
     {"id": "FORMENTOR_CURRENT_TYPE_DRIVER", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Current type of driver counter"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "101A"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_PQ35_ODO_3", "path": "Trips", "fmt": { "len": 24, "blsb": true, "max": 16777215, "unit": "kilometers" }, "name": "Odometer #3", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1021"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_TCM_DRAG_TQ", "path": "Transmission", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "newtonMeters" }, "name": "Transmission drag torque"}
   ]},
@@ -480,7 +480,7 @@
   "signals": [
     {"id": "FORMENTOR_CLU_OVERHEATING_CLU", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Clutch overheating, clutch"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "2104"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_MQB_TCM_ATF_T_VAR_2_DSG_S_TRONIC", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Automatic transmission fluid temperature, variant 2", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
@@ -544,7 +544,7 @@
   "signals": [
     {"id": "FORMENTOR_ROUTE_DATA_ACTIVE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Route data, active"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3841"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022], "from": 2025 },
   "signals": [
     {"id": "FORMENTOR_MQB_TCM_ODO", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -661,11 +661,11 @@
   "signals": [
     {"id": "FORMENTOR_AUX_HYDRAULIC_PMP_RPM", "path": "Movement", "fmt": { "len": 8, "max": 8160, "mul": 32, "unit": "rpm" }, "name": "Aux. hydraulic pump RPM"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2022, "from": 2024 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
     {"id": "FORMENTOR_ACCEL_PEDAL_POS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},

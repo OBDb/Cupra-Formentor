@@ -1,0 +1,5 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_MQB_SWA: 758.81
+  response: 77C0562181217B6

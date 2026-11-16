@@ -1,0 +1,8 @@
+command_id: 710.77A.222A0E
+test_cases:
+- expected_values:
+    FORMENTOR_BAT_INT_R: 0.2
+  response: 77A04622A0E01
+- expected_values:
+    FORMENTOR_BAT_INT_R: 14.2
+  response: 77A04622A0E47

@@ -1,0 +1,8 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    FORMENTOR_AAT: 11
+  response: 7B0046226097A
+- expected_values:
+    FORMENTOR_AAT: 12
+  response: 7B0046226097C
