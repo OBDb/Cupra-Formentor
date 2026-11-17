@@ -663,7 +663,7 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
-    {"id": "FORMENTOR_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "FORMENTOR_VSS_7E1", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "cmd": {"22": "F449"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022], "from": 2024 },
   "signals": [
@@ -1314,7 +1314,7 @@
   ]},
 { "hdr": "FC00", "rax": "FE007B", "pri": "17", "tst": "7B", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2022, "years": [2024], "from": 2026 },
   "signals": [
-    {"id": "FORMENTOR_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+    {"id": "FORMENTOR_VSS_V2", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
 { "hdr": "FC00", "rax": "FE00B9", "pri": "17", "tst": "B9", "cmd": {"22": "465B"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
