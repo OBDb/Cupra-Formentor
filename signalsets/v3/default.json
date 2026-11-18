@@ -309,7 +309,7 @@
   "signals": [
     {"id": "FORMENTOR_CLIMATE_A_C_CLCH", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "A/C clutch"}
   ]},
-{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2027 },
+{ "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 5, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
     {"id": "FORMENTOR_AC_REFRIG_P_SENS1",     "path": "Climate", "fmt": {           "len": 16, "max": 576.708,             "mul": 88, "div": 10000,             "nullmax": 36.0272, "unit": "bars"    }, "name": "A/C refrigerant pressure, sensor 1"},
     {"id": "FORMENTOR_AC_REFRIG_T_SENS1",     "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 369.4,   "min": -40, "mul": 10, "div": 100,   "add": -40, "nullmax": 369.4,   "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1"},
@@ -548,7 +548,7 @@
   "signals": [
     {"id": "FORMENTOR_MQB_TCM_ODO", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "3887"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "3887"}, "freq": 30,
   "signals": [
     {"id": "FORMENTOR_MQB_TCM_ODO_2", "path": "Trips", "fmt": { "len": 32, "blsb": true, "max": 429496729.5, "div": 10, "nullmax": 429496729.5, "unit": "kilometers" }, "name": "Odometer #2", "suggestedMetric": "odometer"}
   ]},
@@ -688,7 +688,7 @@
   "signals": [
     {"id": "FORMENTOR_HVBAT_I", "path": "Battery", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "High-voltage battery current, raw count"}
   ]},
-{ "hdr": "7E5", "rax": "7ED", "cmd": {"22": "51E0"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2025 },
+{ "hdr": "7E5", "rax": "7ED", "dbg": true, "cmd": {"22": "51E0"}, "freq": 30,
   "signals": [
     {"id": "FORMENTOR_HVBAT_SOH", "path": "Battery", "fmt": { "len": 16, "max": 6524, "min": -1798.574, "mul": 0.127, "add": -1798.574, "nullmax": 6524, "unit": "percent" }, "name": "HV battery health", "suggestedMetric": "stateOfHealth"}
   ]},
